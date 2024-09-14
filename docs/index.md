@@ -1,4 +1,6 @@
 ![YOMG Lab Documentation](image_2024-09-15_111916647.png)
+<img src="image_2024-09-15_111916647.png" width="300" height="200" alt="YOMG Lab Documentation">
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
