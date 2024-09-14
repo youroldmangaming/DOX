@@ -1,4 +1,4 @@
-![Alt text](.png)
+![YOMG Lab Documentation](image_2024-09-15_111916647.png)
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
