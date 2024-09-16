@@ -1,8 +1,122 @@
 site_name: Lab DOX
 site_url: https://dox.youroldmangaming.com
 nav:
-  - Home: index.md
-
+- Home: index.md
+-DevOps Principles & Culture
+  -DevOps mindset & philosophy
+  -Collaboration between development & operations
+  -Shift-left approach
+  -Continuous feedback loops
+  -DevOps metrics & KPIs
+  -DevOps culture & leadership
+  -DevOps anti-patterns
+  -InnerSource and open collaboration
+-Version Control Systems (VCS)
+  -Git fundamentals
+  -Git branching strategies (Git Flow, GitHub Flow, etc.)
+  -Code reviews and pull requests
+  -Merge conflict resolution
+  -Repository hosting (GitHub, GitLab, Bitbucket)
+-Continuous Integration (CI)
+  -CI pipeline design
+  -Automated testing (unit, integration, functional)
+  -Code quality analysis (static code analysis, linting)
+  -Build automation tools (Maven, Gradle)
+  -Popular CI tools (Jenkins, GitLab CI, CircleCI, Travis CI, etc.)
+-Continuous Delivery (CD) & Continuous Deployment
+  -CD pipeline architecture
+  -Deployment strategies (Blue-Green, Canary, Rolling)
+  -Infrastructure as Code (IaC)
+  -Artifact repositories (JFrog Artifactory, Nexus, Docker Registry)
+  -Automated rollback mechanisms
+-Infrastructure as Code (IaC)
+  -IaC principles & benefits
+  -Tools (Terraform, AWS CloudFormation, Pulumi)
+  -Configuration management (Ansible, Puppet, Chef)
+  -Idempotency and state management
+  -IaC best practices and anti-patterns
+-Containerization & Container Orchestration
+  -Docker fundamentals (containers, images, volumes, networks)
+  -Dockerfile and best practices for building containers
+  -Container registries (Docker Hub, Amazon ECR, Azure ACR)
+  -Container orchestration (Kubernetes, Docker Swarm)
+  -Kubernetes basics (pods, services, deployments)
+  -Helm (Kubernetes package manager)
+-Microservices & Service Mesh
+  -Microservices architecture
+  -API gateways and service discovery
+  -Service mesh (Istio, Linkerd)
+  -Monitoring & tracing in microservices (Prometheus, Jaeger)
+  -Scaling microservices with Kubernetes
+-Cloud Computing & Cloud Native DevOps
+  -Public clouds (AWS, Azure, Google Cloud)
+  -Cloud native principles (12-factor app)
+  -Serverless computing (AWS Lambda, Azure Functions)
+  -Cloud infrastructure management (EC2, S3, IAM)
+  -Multi-cloud and hybrid cloud strategies
+-Monitoring & Observability
+  -Monitoring tools (Prometheus, Grafana, Datadog, New Relic)
+  -Logging and log management (ELK Stack, Fluentd, Loki)
+  -Distributed tracing (Jaeger, Zipkin)
+  -Alerting and incident management (PagerDuty, OpsGenie)
+  -SRE practices (Service Level Indicators, SLAs, SLOs)
+-Security in DevOps (DevSecOps)
+  -Secure coding practices
+  -Security scanning tools (SonarQube, OWASP ZAP)
+  -Container security (Aqua Security, Twistlock)
+  -Vulnerability management (Snyk, Trivy)
+  -Secrets management (Vault, AWS Secrets Manager)
+  -Compliance and governance in DevOps
+-Release Management
+  -Release automation and orchestration
+  -Feature toggles & flags (LaunchDarkly, FeatureHub)
+  -Change management in DevOps
+  -Release pipelines (Azure DevOps, Octopus Deploy)
+  -Versioning strategies (semantic versioning)
+-Automation & Scripting
+  -Automation scripting languages (Bash, PowerShell, Python)
+  -API integrations with automation scripts
+  -Orchestration with Ansible, SaltStack, Chef
+  -Cron jobs and scheduled tasks automation
+-CI/CD for Mobile Applications
+  -Mobile CI/CD pipelines (Bitrise, AppCenter, Fastlane)
+  -App signing and deployment automation
+  -Automated mobile testing frameworks (Appium, XCTest)
+  -Publishing to app stores (Google Play, App Store)
+-Networking in DevOps
+  -Load balancing (NGINX, HAProxy, AWS ELB)
+  -Networking in Kubernetes (Service Mesh, Ingress Controllers)
+  -DNS and domain management (Route 53, Cloudflare)
+  -VPNs and network security (Zero Trust Networking)
+-Database Management in DevOps
+  -Database CI/CD (Liquibase, Flyway)
+  -Backup automation and recovery strategies
+  -NoSQL vs SQL in DevOps (MongoDB, MySQL, PostgreSQL)
+  -Scaling databases in cloud environments (RDS, Cosmos DB)
+-Site Reliability Engineering (SRE)
+  -SRE principles and practices
+  -Error budgets and incident management
+  -Automation in SRE
+  -Capacity planning and reliability
+-Business Continuity & Disaster Recovery (BCDR)
+  -Backup and restore automation
+  -Disaster recovery as code
+  -High availability and failover strategies
+  -Data replication and disaster recovery in cloud environments
+-DevOps Metrics & Performance Monitoring
+  -Key performance indicators (KPIs) in DevOps
+  -Latency, throughput, and error rates
+  -Performance testing tools (JMeter, Gatling, Locust)
+  -Capacity planning and resource optimization
+-Agile & Lean Methodologies in DevOps
+  -Scrum & Kanban in DevOps
+  -Agile practices integrated with CI/CD
+  -Continuous improvement and feedback loops
+  -DevOps and value stream mapping
+-Artificial Intelligence & Machine Learning in DevOps (AIOps)
+  -AI-driven monitoring and alerting
+  -Machine learning for predictive analytics
+  -Automation with AI/ML models in pipelines
 
 
 theme:
