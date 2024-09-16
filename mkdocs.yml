@@ -3,14 +3,14 @@ site_url: https://dox.youroldmangaming.com
 nav:
   - Home: index.md
   - DevOps Principles & Culture:
-    - DevOps mindset & philosophy: index.md
-    - Collaboration between development & operations: index.md
-    - Shift-left approach: index.md
-    - Continuous feedback loops: index.md
-    - DevOps metrics & KPIs: index.md
-    - DevOps culture & leadership: index.md
-    - DevOps anti-patterns: index.md
-    - InnerSource and open collaboration: index.md
+      - DevOps mindset & philosophy: index.md
+      - Collaboration between development & operations: index.md
+      - Shift-left approach: index.md
+      - Continuous feedback loops: index.md
+      - DevOps metrics & KPIs: index.md
+      - DevOps culture & leadership: index.md
+      - DevOps anti-patterns: index.md
+      - InnerSource and open collaboration: index.md
   - Version Control Systems (VCS):
     - Git fundamentals: index.md
     - Git branching strategies (Git Flow, GitHub Flow, etc.): index.md
