@@ -1,6 +1,6 @@
 Babel==2.16.0
 cairocffi==1.7.0
-CairoSCG==2.7.1
+CairoSVG==2.7.1
 certifi==2024.8.30
 cffi==1.16.0
 charset-normalizer==3.3.2
