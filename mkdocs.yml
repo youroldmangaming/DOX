@@ -2,121 +2,121 @@ site_name: Lab DOX
 site_url: https://dox.youroldmangaming.com
 nav:
 - Home: index.md
--DevOps Principles & Culture
-  -DevOps mindset & philosophy
-  -Collaboration between development & operations
-  -Shift-left approach
-  -Continuous feedback loops
-  -DevOps metrics & KPIs
-  -DevOps culture & leadership
-  -DevOps anti-patterns
-  -InnerSource and open collaboration
--Version Control Systems (VCS)
-  -Git fundamentals
-  -Git branching strategies (Git Flow, GitHub Flow, etc.)
-  -Code reviews and pull requests
-  -Merge conflict resolution
-  -Repository hosting (GitHub, GitLab, Bitbucket)
--Continuous Integration (CI)
-  -CI pipeline design
-  -Automated testing (unit, integration, functional)
-  -Code quality analysis (static code analysis, linting)
-  -Build automation tools (Maven, Gradle)
-  -Popular CI tools (Jenkins, GitLab CI, CircleCI, Travis CI, etc.)
--Continuous Delivery (CD) & Continuous Deployment
-  -CD pipeline architecture
-  -Deployment strategies (Blue-Green, Canary, Rolling)
-  -Infrastructure as Code (IaC)
-  -Artifact repositories (JFrog Artifactory, Nexus, Docker Registry)
-  -Automated rollback mechanisms
--Infrastructure as Code (IaC)
-  -IaC principles & benefits
-  -Tools (Terraform, AWS CloudFormation, Pulumi)
-  -Configuration management (Ansible, Puppet, Chef)
-  -Idempotency and state management
-  -IaC best practices and anti-patterns
--Containerization & Container Orchestration
-  -Docker fundamentals (containers, images, volumes, networks)
-  -Dockerfile and best practices for building containers
-  -Container registries (Docker Hub, Amazon ECR, Azure ACR)
-  -Container orchestration (Kubernetes, Docker Swarm)
-  -Kubernetes basics (pods, services, deployments)
-  -Helm (Kubernetes package manager)
--Microservices & Service Mesh
-  -Microservices architecture
-  -API gateways and service discovery
-  -Service mesh (Istio, Linkerd)
-  -Monitoring & tracing in microservices (Prometheus, Jaeger)
-  -Scaling microservices with Kubernetes
--Cloud Computing & Cloud Native DevOps
-  -Public clouds (AWS, Azure, Google Cloud)
-  -Cloud native principles (12-factor app)
-  -Serverless computing (AWS Lambda, Azure Functions)
-  -Cloud infrastructure management (EC2, S3, IAM)
-  -Multi-cloud and hybrid cloud strategies
--Monitoring & Observability
-  -Monitoring tools (Prometheus, Grafana, Datadog, New Relic)
-  -Logging and log management (ELK Stack, Fluentd, Loki)
-  -Distributed tracing (Jaeger, Zipkin)
-  -Alerting and incident management (PagerDuty, OpsGenie)
-  -SRE practices (Service Level Indicators, SLAs, SLOs)
--Security in DevOps (DevSecOps)
-  -Secure coding practices
-  -Security scanning tools (SonarQube, OWASP ZAP)
-  -Container security (Aqua Security, Twistlock)
-  -Vulnerability management (Snyk, Trivy)
-  -Secrets management (Vault, AWS Secrets Manager)
-  -Compliance and governance in DevOps
--Release Management
-  -Release automation and orchestration
-  -Feature toggles & flags (LaunchDarkly, FeatureHub)
-  -Change management in DevOps
-  -Release pipelines (Azure DevOps, Octopus Deploy)
-  -Versioning strategies (semantic versioning)
--Automation & Scripting
-  -Automation scripting languages (Bash, PowerShell, Python)
-  -API integrations with automation scripts
-  -Orchestration with Ansible, SaltStack, Chef
-  -Cron jobs and scheduled tasks automation
--CI/CD for Mobile Applications
-  -Mobile CI/CD pipelines (Bitrise, AppCenter, Fastlane)
-  -App signing and deployment automation
-  -Automated mobile testing frameworks (Appium, XCTest)
-  -Publishing to app stores (Google Play, App Store)
--Networking in DevOps
-  -Load balancing (NGINX, HAProxy, AWS ELB)
-  -Networking in Kubernetes (Service Mesh, Ingress Controllers)
-  -DNS and domain management (Route 53, Cloudflare)
-  -VPNs and network security (Zero Trust Networking)
--Database Management in DevOps
-  -Database CI/CD (Liquibase, Flyway)
-  -Backup automation and recovery strategies
-  -NoSQL vs SQL in DevOps (MongoDB, MySQL, PostgreSQL)
-  -Scaling databases in cloud environments (RDS, Cosmos DB)
--Site Reliability Engineering (SRE)
-  -SRE principles and practices
-  -Error budgets and incident management
-  -Automation in SRE
-  -Capacity planning and reliability
--Business Continuity & Disaster Recovery (BCDR)
-  -Backup and restore automation
-  -Disaster recovery as code
-  -High availability and failover strategies
-  -Data replication and disaster recovery in cloud environments
--DevOps Metrics & Performance Monitoring
-  -Key performance indicators (KPIs) in DevOps
-  -Latency, throughput, and error rates
-  -Performance testing tools (JMeter, Gatling, Locust)
-  -Capacity planning and resource optimization
--Agile & Lean Methodologies in DevOps
-  -Scrum & Kanban in DevOps
-  -Agile practices integrated with CI/CD
-  -Continuous improvement and feedback loops
-  -DevOps and value stream mapping
--Artificial Intelligence & Machine Learning in DevOps (AIOps)
-  -AI-driven monitoring and alerting
-  -Machine learning for predictive analytics
-  -Automation with AI/ML models in pipelines
+-DevOps Principles & Culture:
+  -DevOps mindset & philosophy: index.md
+  -Collaboration between development & operations: index.md
+  -Shift-left approach: index.md
+  -Continuous feedback loops: index.md
+  -DevOps metrics & KPIs: index.md
+  -DevOps culture & leadership: index.md
+  -DevOps anti-patterns: index.md
+  -InnerSource and open collaboration: index.md
+-Version Control Systems (VCS):
+  -Git fundamentals: index.md
+  -Git branching strategies (Git Flow, GitHub Flow, etc.): index.md
+  -Code reviews and pull requests: index.md
+  -Merge conflict resolution: index.md
+  -Repository hosting (GitHub, GitLab, Bitbucket): index.md
+-Continuous Integration (CI):
+  -CI pipeline design: index.md
+  -Automated testing (unit, integration, functional): index.md
+  -Code quality analysis (static code analysis, linting): index.md
+  -Build automation tools (Maven, Gradle): index.md
+  -Popular CI tools (Jenkins, GitLab CI, CircleCI, Travis CI, etc.): index.md
+-Continuous Delivery (CD) & Continuous Deployment:
+  -CD pipeline architecture: index.md
+  -Deployment strategies (Blue-Green, Canary, Rolling): index.md
+  -Infrastructure as Code (IaC): index.md
+  -Artifact repositories (JFrog Artifactory, Nexus, Docker Registry): index.md
+  -Automated rollback mechanisms: index.md
+-Infrastructure as Code (IaC):
+  -IaC principles & benefits: index.md
+  -Tools (Terraform, AWS CloudFormation, Pulumi): index.md
+  -Configuration management (Ansible, Puppet, Chef): index.md
+  -Idempotency and state management: index.md
+  -IaC best practices and anti-patterns: index.md
+-Containerization & Container Orchestration:
+  -Docker fundamentals (containers, images, volumes, networks): index.md
+  -Dockerfile and best practices for building containers: index.md
+  -Container registries (Docker Hub, Amazon ECR, Azure ACR): index.md
+  -Container orchestration (Kubernetes, Docker Swarm): index.md
+  -Kubernetes basics (pods, services, deployments): index.md
+  -Helm (Kubernetes package manager): index.md
+-Microservices & Service Mesh:
+  -Microservices architecture: index.md
+  -API gateways and service discovery: index.md
+  -Service mesh (Istio, Linkerd): index.md
+  -Monitoring & tracing in microservices (Prometheus, Jaeger): index.md
+  -Scaling microservices with Kubernetes: index.md
+-Cloud Computing & Cloud Native DevOps:
+  -Public clouds (AWS, Azure, Google Cloud): index.md
+  -Cloud native principles (12-factor app): index.md
+  -Serverless computing (AWS Lambda, Azure Functions): index.md
+  -Cloud infrastructure management (EC2, S3, IAM): index.md
+  -Multi-cloud and hybrid cloud strategies: index.md
+-Monitoring & Observability:
+  -Monitoring tools (Prometheus, Grafana, Datadog, New Relic): index.md
+  -Logging and log management (ELK Stack, Fluentd, Loki): index.md
+  -Distributed tracing (Jaeger, Zipkin): index.md
+  -Alerting and incident management (PagerDuty, OpsGenie): index.md
+  -SRE practices (Service Level Indicators, SLAs, SLOs): index.md
+-Security in DevOps (DevSecOps):
+  -Secure coding practices: index.md
+  -Security scanning tools (SonarQube, OWASP ZAP): index.md
+  -Container security (Aqua Security, Twistlock): index.md
+  -Vulnerability management (Snyk, Trivy): index.md
+  -Secrets management (Vault, AWS Secrets Manager): index.md
+  -Compliance and governance in DevOps: index.md
+-Release Management:
+  -Release automation and orchestration: index.md
+  -Feature toggles & flags (LaunchDarkly, FeatureHub): index.md
+  -Change management in DevOps: index.md
+  -Release pipelines (Azure DevOps, Octopus Deploy): index.md
+  -Versioning strategies (semantic versioning): index.md
+-Automation & Scripting:
+  -Automation scripting languages (Bash, PowerShell, Python): index.md
+  -API integrations with automation scripts: index.md
+  -Orchestration with Ansible, SaltStack, Chef: index.md
+  -Cron jobs and scheduled tasks automation: index.md
+-CI/CD for Mobile Applications:
+  -Mobile CI/CD pipelines (Bitrise, AppCenter, Fastlane): index.md
+  -App signing and deployment automation: index.md
+  -Automated mobile testing frameworks (Appium, XCTest): index.md
+  -Publishing to app stores (Google Play, App Store): index.md
+-Networking in DevOps:
+  -Load balancing (NGINX, HAProxy, AWS ELB): index.md
+  -Networking in Kubernetes (Service Mesh, Ingress Controllers): index.md
+  -DNS and domain management (Route 53, Cloudflare): index.md
+  -VPNs and network security (Zero Trust Networking): index.md
+-Database Management in DevOps:
+  -Database CI/CD (Liquibase, Flyway): index.md
+  -Backup automation and recovery strategies: index.md
+  -NoSQL vs SQL in DevOps (MongoDB, MySQL, PostgreSQL): index.md
+  -Scaling databases in cloud environments (RDS, Cosmos DB): index.md
+-Site Reliability Engineering (SRE):
+  -SRE principles and practices: index.md
+  -Error budgets and incident management: index.md
+  -Automation in SRE: index.md
+  -Capacity planning and reliability: index.md
+-Business Continuity & Disaster Recovery (BCDR):
+  -Backup and restore automation: index.md
+  -Disaster recovery as code: index.md
+  -High availability and failover strategies: index.md
+  -Data replication and disaster recovery in cloud environments: index.md
+-DevOps Metrics & Performance Monitoring:
+  -Key performance indicators (KPIs) in DevOps: index.md
+  -Latency, throughput, and error rates: index.md
+  -Performance testing tools (JMeter, Gatling, Locust): index.md
+  -Capacity planning and resource optimization: index.md
+-Agile & Lean Methodologies in DevOps:
+  -Scrum & Kanban in DevOps: index.md
+  -Agile practices integrated with CI/CD: index.md
+  -Continuous improvement and feedback loops: index.md
+  -DevOps and value stream mapping: index.md
+-Artificial Intelligence & Machine Learning in DevOps (AIOps):
+  -AI-driven monitoring and alerting: index.md
+  -Machine learning for predictive analytics: index.md
+  -Automation with AI/ML models in pipelines: index.md
 
 
 theme:
