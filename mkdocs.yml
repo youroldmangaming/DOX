@@ -12,111 +12,111 @@ nav:
       - DevOps anti-patterns: index.md
       - InnerSource and open collaboration: index.md
   - Version Control Systems (VCS):
-    - Git fundamentals: index.md
-    - Git branching strategies (Git Flow, GitHub Flow, etc.): index.md
-    - Code reviews and pull requests: index.md
-    - Merge conflict resolution: index.md
-    - Repository hosting (GitHub, GitLab, Bitbucket): index.md
+      - Git fundamentals: index.md
+      - Git branching strategies (Git Flow, GitHub Flow, etc.): index.md
+      - Code reviews and pull requests: index.md
+      - Merge conflict resolution: index.md
+      - Repository hosting (GitHub, GitLab, Bitbucket): index.md
   - Continuous Integration (CI):
-    - CI pipeline design: index.md
-    - Automated testing (unit, integration, functional): index.md
-    - Code quality analysis (static code analysis, linting): index.md
-    - Build automation tools (Maven, Gradle): index.md
-    - Popular CI tools (Jenkins, GitLab CI, CircleCI, Travis CI, etc.): index.md
+      - CI pipeline design: index.md
+      - Automated testing (unit, integration, functional): index.md
+      - Code quality analysis (static code analysis, linting): index.md
+      - Build automation tools (Maven, Gradle): index.md
+      - Popular CI tools (Jenkins, GitLab CI, CircleCI, Travis CI, etc.): index.md
   - Continuous Delivery (CD) & Continuous Deployment:
-    - CD pipeline architecture: index.md
-    - Deployment strategies (Blue-Green, Canary, Rolling): index.md
-    - Infrastructure as Code (IaC): index.md
-    - Artifact repositories (JFrog Artifactory, Nexus, Docker Registry): index.md
-    - Automated rollback mechanisms: index.md
+      - CD pipeline architecture: index.md
+      - Deployment strategies (Blue-Green, Canary, Rolling): index.md
+      - Infrastructure as Code (IaC): index.md
+      - Artifact repositories (JFrog Artifactory, Nexus, Docker Registry): index.md
+      - Automated rollback mechanisms: index.md
   - Infrastructure as Code (IaC):
-    - IaC principles & benefits: index.md
-    - Tools (Terraform, AWS CloudFormation, Pulumi): index.md
-    - Configuration management (Ansible, Puppet, Chef): index.md
-    - Idempotency and state management: index.md
-    - IaC best practices and anti-patterns: index.md
+      - IaC principles & benefits: index.md
+      - Tools (Terraform, AWS CloudFormation, Pulumi): index.md
+      - Configuration management (Ansible, Puppet, Chef): index.md
+      - Idempotency and state management: index.md
+      - IaC best practices and anti-patterns: index.md
   - Containerization & Container Orchestration:
-    - Docker fundamentals (containers, images, volumes, networks): index.md
-    - Dockerfile and best practices for building containers: index.md
-    - Container registries (Docker Hub, Amazon ECR, Azure ACR): index.md
-    - Container orchestration (Kubernetes, Docker Swarm): index.md
-    - Kubernetes basics (pods, services, deployments): index.md
-    - Helm (Kubernetes package manager): index.md
+      - Docker fundamentals (containers, images, volumes, networks): index.md
+      - Dockerfile and best practices for building containers: index.md
+      - Container registries (Docker Hub, Amazon ECR, Azure ACR): index.md
+      - Container orchestration (Kubernetes, Docker Swarm): index.md
+      - Kubernetes basics (pods, services, deployments): index.md
+      - Helm (Kubernetes package manager): index.md
   - Microservices & Service Mesh:
-    - Microservices architecture: index.md
-    - API gateways and service discovery: index.md
-    - Service mesh (Istio, Linkerd): index.md
-    - Monitoring & tracing in microservices (Prometheus, Jaeger): index.md
-    - Scaling microservices with Kubernetes: index.md
+      - Microservices architecture: index.md
+      - API gateways and service discovery: index.md
+      - Service mesh (Istio, Linkerd): index.md
+      - Monitoring & tracing in microservices (Prometheus, Jaeger): index.md
+      - Scaling microservices with Kubernetes: index.md
   - Cloud Computing & Cloud Native DevOps:
-    - Public clouds (AWS, Azure, Google Cloud): index.md
-    - Cloud native principles (12-factor app): index.md
-    - Serverless computing (AWS Lambda, Azure Functions): index.md
-    - Cloud infrastructure management (EC2, S3, IAM): index.md
-    - Multi-cloud and hybrid cloud strategies: index.md
+      - Public clouds (AWS, Azure, Google Cloud): index.md
+      - Cloud native principles (12-factor app): index.md
+      - Serverless computing (AWS Lambda, Azure Functions): index.md
+      - Cloud infrastructure management (EC2, S3, IAM): index.md
+      - Multi-cloud and hybrid cloud strategies: index.md
   - Monitoring & Observability:
-    - Monitoring tools (Prometheus, Grafana, Datadog, New Relic): index.md
-    - Logging and log management (ELK Stack, Fluentd, Loki): index.md
-    - Distributed tracing (Jaeger, Zipkin): index.md
-    - Alerting and incident management (PagerDuty, OpsGenie): index.md
-    - SRE practices (Service Level Indicators, SLAs, SLOs): index.md
+      - Monitoring tools (Prometheus, Grafana, Datadog, New Relic): index.md
+      - Logging and log management (ELK Stack, Fluentd, Loki): index.md
+      - Distributed tracing (Jaeger, Zipkin): index.md
+      - Alerting and incident management (PagerDuty, OpsGenie): index.md
+      - SRE practices (Service Level Indicators, SLAs, SLOs): index.md
   - Security in DevOps (DevSecOps):
-    - Secure coding practices: index.md
-    - Security scanning tools (SonarQube, OWASP ZAP): index.md
-    - Container security (Aqua Security, Twistlock): index.md
-    - Vulnerability management (Snyk, Trivy): index.md
-    - Secrets management (Vault, AWS Secrets Manager): index.md
-    - Compliance and governance in DevOps: index.md
+      - Secure coding practices: index.md
+      - Security scanning tools (SonarQube, OWASP ZAP): index.md
+      - Container security (Aqua Security, Twistlock): index.md
+      - Vulnerability management (Snyk, Trivy): index.md
+      - Secrets management (Vault, AWS Secrets Manager): index.md
+      - Compliance and governance in DevOps: index.md
   - Release Management:
-    - Release automation and orchestration: index.md
-    - Feature toggles & flags (LaunchDarkly, FeatureHub): index.md
-    - Change management in DevOps: index.md
-    - Release pipelines (Azure DevOps, Octopus Deploy): index.md
-    - Versioning strategies (semantic versioning): index.md
+      - Release automation and orchestration: index.md
+      - Feature toggles & flags (LaunchDarkly, FeatureHub): index.md
+      - Change management in DevOps: index.md
+      - Release pipelines (Azure DevOps, Octopus Deploy): index.md
+      - Versioning strategies (semantic versioning): index.md
   - Automation & Scripting:
-    - Automation scripting languages (Bash, PowerShell, Python): index.md
-    - API integrations with automation scripts: index.md
-    - Orchestration with Ansible, SaltStack, Chef: index.md
-    - Cron jobs and scheduled tasks automation: index.md
+      - Automation scripting languages (Bash, PowerShell, Python): index.md
+      - API integrations with automation scripts: index.md
+      - Orchestration with Ansible, SaltStack, Chef: index.md
+      - Cron jobs and scheduled tasks automation: index.md
   - CI/CD for Mobile Applications:
-    - Mobile CI/CD pipelines (Bitrise, AppCenter, Fastlane): index.md
-    - App signing and deployment automation: index.md
-    - Automated mobile testing frameworks (Appium, XCTest): index.md
-    - Publishing to app stores (Google Play, App Store): index.md
+      - Mobile CI/CD pipelines (Bitrise, AppCenter, Fastlane): index.md
+      - App signing and deployment automation: index.md
+      - Automated mobile testing frameworks (Appium, XCTest): index.md
+      - Publishing to app stores (Google Play, App Store): index.md
   - Networking in DevOps:
-    - Load balancing (NGINX, HAProxy, AWS ELB): index.md
-    - Networking in Kubernetes (Service Mesh, Ingress Controllers): index.md
-    - DNS and domain management (Route 53, Cloudflare): index.md
-    - VPNs and network security (Zero Trust Networking): index.md
+      - Load balancing (NGINX, HAProxy, AWS ELB): index.md
+      - Networking in Kubernetes (Service Mesh, Ingress Controllers): index.md
+      - DNS and domain management (Route 53, Cloudflare): index.md
+      - VPNs and network security (Zero Trust Networking): index.md
   - Database Management in DevOps:
-    - Database CI/CD (Liquibase, Flyway): index.md
-    - Backup automation and recovery strategies: index.md
-    - NoSQL vs SQL in DevOps (MongoDB, MySQL, PostgreSQL): index.md
-    - Scaling databases in cloud environments (RDS, Cosmos DB): index.md
+      - Database CI/CD (Liquibase, Flyway): index.md
+      - Backup automation and recovery strategies: index.md
+      - NoSQL vs SQL in DevOps (MongoDB, MySQL, PostgreSQL): index.md
+      - Scaling databases in cloud environments (RDS, Cosmos DB): index.md
   - Site Reliability Engineering (SRE):
-    - SRE principles and practices: index.md
-    - Error budgets and incident management: index.md
-    - Automation in SRE: index.md
-    - Capacity planning and reliability: index.md
+      - SRE principles and practices: index.md
+      - Error budgets and incident management: index.md
+      - Automation in SRE: index.md
+      - Capacity planning and reliability: index.md
   - Business Continuity & Disaster Recovery (BCDR):
-    - Backup and restore automation: index.md
-    - Disaster recovery as code: index.md
-    - High availability and failover strategies: index.md
-    - Data replication and disaster recovery in cloud environments: index.md
+      - Backup and restore automation: index.md
+      - Disaster recovery as code: index.md
+      - High availability and failover strategies: index.md
+      - Data replication and disaster recovery in cloud environments: index.md
   - DevOps Metrics & Performance Monitoring:
-    - Key performance indicators (KPIs) in DevOps: index.md
-    - Latency, throughput, and error rates: index.md
-    - Performance testing tools (JMeter, Gatling, Locust): index.md
-    - Capacity planning and resource optimization: index.md
+      - Key performance indicators (KPIs) in DevOps: index.md
+      - Latency, throughput, and error rates: index.md
+      - Performance testing tools (JMeter, Gatling, Locust): index.md
+      - Capacity planning and resource optimization: index.md
   - Agile & Lean Methodologies in DevOps:
-    - Scrum & Kanban in DevOps: index.md
-    - Agile practices integrated with CI/CD: index.md
-    - Continuous improvement and feedback loops: index.md
-    - DevOps and value stream mapping: index.md
+      - Scrum & Kanban in DevOps: index.md
+      - Agile practices integrated with CI/CD: index.md
+      - Continuous improvement and feedback loops: index.md
+      - DevOps and value stream mapping: index.md
   - Artificial Intelligence & Machine Learning in DevOps (AIOps):
-    - AI-driven monitoring and alerting: index.md
-    - Machine learning for predictive analytics: index.md
-    - Automation with AI/ML models in pipelines: index.md
+      - AI-driven monitoring and alerting: index.md
+      - Machine learning for predictive analytics: index.md
+      - Automation with AI/ML models in pipelines: index.md
 
 
 theme:
