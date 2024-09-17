@@ -5,7 +5,7 @@
 For full source visit [github](https://github.com/youroldmangaming/DOX/).
 
 Project Overview
-DOX - A Computer Scientist's Lab Notebook is a digital logbook, documenting the setup of various technical labs, hardware experiments, software configurations, and any testing performed. This site will serve as a reference for future experiments and a learning tool for others.
+DOX - A Computer Scientist's Lab Notebook is a digital logbook, documenting the setup of various technical labs, hardware experiments, software configurations, and any testing performed. This site will serve as a reference for future experiments and a learning tool for others. A lifetime of software development with experience in all roles from green field self starting software house to fully enabled small to medium sized teams and then onto Enterprise level standards based production. Software Engineering, Infrastructure Implementation, Database, Security and System Administration, Service Delivery and Account Management, Product Development and Marketing, ITIL, Best Practices, Project and Programme Delivery. Yes this will not covering it all with no simple demarkation.
 
 Core Features:
 Project and Experiment Logging:
@@ -26,9 +26,6 @@ Provide code snippets and commands in the documentation with options to copy the
 
 Collaborative Notes and Comments:
 Option to add collaborative notes for others, allowing them to comment on existing entries or contribute new insights.
-
-
-
 
 ## Commands
 
