@@ -108,11 +108,13 @@ nav:
       - Latency, throughput, and error rates: index.md
       - Performance testing tools (JMeter, Gatling, Locust): index.md
       - Capacity planning and resource optimization: index.md
-  - Agile & Lean Methodologies in DevOps:
-      - Scrum & Kanban in DevOps: index.md
-      - Agile practices integrated with CI/CD: index.md
-      - Continuous improvement and feedback loops: index.md
-      - DevOps and value stream mapping: index.md
+  - Water Fall, Agile & Lean Methodologies in DevOps:
+      -Overview:
+          - Scrum & Kanban in DevOps: index.md
+          - Agile practices integrated with CI/CD: index.md
+          - Continuous improvement and feedback loops: index.md
+          - DevOps and value stream mapping: index.md
+          - Waterfall: index.md 
   - Artificial Intelligence & Machine Learning in DevOps (AIOps):
       - AI-driven monitoring and alerting: index.md
       - Machine learning for predictive analytics: index.md
