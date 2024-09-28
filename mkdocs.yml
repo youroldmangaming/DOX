@@ -3,7 +3,8 @@ site_url: https://dox.youroldmangaming.com
 nav:
   - Home: index.md
   - DevOps Principles & Culture:
-      - DevOps mindset & philosophy: index.md
+      - DevOps mindset & philosophy: 
+          - DevOps: index.md
       - Collaboration between development & operations: index.md
       - Shift-left approach: index.md
       - Continuous feedback loops: index.md
