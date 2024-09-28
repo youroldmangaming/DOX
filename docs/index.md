@@ -1,3 +1,42 @@
+# Project Overview
+
+**DOX - A Computer Scientist's Lab Notebook** is a digital logbook, documenting the setup of various technical labs, hardware experiments, software configurations, and any testing performed. This site will serve as a reference for future experiments and a learning tool for others.
+
+A lifetime of software development with experience in all roles, from greenfield self-starting software houses to fully enabled small to medium-sized teams, and then onto enterprise-level standards-based production (Software Engineer to Chief Technical Officer). The scope includes:
+
+- Software Engineering
+- Infrastructure Implementation
+- Database, Security, and System Administration
+- Service Delivery and Account Management
+- Product Development and Marketing
+- ITIL, Best Practices
+- Project and Programme Delivery
+
+This project will cover it all, with no simple demarcation, as these fields are all deeply intertwined.
+
+## Core Features
+
+### 1. Project and Experiment Logging
+- Document detailed step-by-step instructions on setting up labs, configurations, experiments, and troubleshooting.
+
+### 2. Categorization and Tagging
+- Organize logs by categories (e.g., hardware setups, software configurations, Docker experiments) and tags (e.g., Raspberry Pi, LoRa, Docker, Ansible, IoT).
+
+### 3. Version Control for Documentation
+- Store all experiment logs in a version-controlled repository (e.g., Git), allowing for proper revision history.
+
+### 4. Searchable Knowledge Base
+- Implement search functionality to easily find past experiments and configurations.
+
+### 5. Interactive Code/Command Blocks
+- Provide code snippets and commands in the documentation with options to easily copy them.
+
+### 6. Collaborative Notes and Comments
+- Allow for collaborative notes where others can comment on existing entries or contribute new insights.
+
+
+
+
 <img src="image_2024-09-15_111916647.png" width="150" height="100" alt="YOMG Lab Documentation">
 # DOX - A Computer Scientists Lab NoteBook
 
@@ -48,5 +87,7 @@ Option to add collaborative notes for others, allowing them to comment on existi
 
 **DOX - A Computer Scientist's Notebook**  
 _Y0MG 2024_
+https://github.com/youroldmangaming/DOX/tree/master
+https://dox.youroldmangaming.com
 
 ---
