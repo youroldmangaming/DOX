@@ -28,3 +28,11 @@ The **DevOps mindset and philosophy** revolve around breaking down the barriers 
 - **Monitoring and Observability**: Proactive monitoring allows issues to be caught early, improving response times and system health.
 
 In summary, the DevOps mindset is about **stability, efficiency, collaboration**, and a **deep focus on ownership and continuous improvement** throughout the software development and operations lifecycle.
+
+---
+
+**DOX - A Computer Scientist's Notebook**  
+_Y0MG 2024_
+
+---
+
