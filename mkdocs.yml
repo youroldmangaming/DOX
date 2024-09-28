@@ -7,7 +7,7 @@ nav:
           - DevOps: mindset.md
       - Collaboration between development & operations: 
           - Collaboration:
-              - DevOps: index.md
+              - DevOps: collaboratio .md
       - Shift-left approach: 
           - Approach:
               - Doc: index.md
