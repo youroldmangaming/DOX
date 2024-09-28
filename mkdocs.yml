@@ -4,7 +4,7 @@ nav:
   - Home: index.md
   - DevOps Principles & Culture:
       - DevOps mindset & philosophy: 
-          - DevOps: index.md
+          - DevOps: mindset.md
       - Collaboration between development & operations: 
           - Collaboration:
               - DevOps: index.md
