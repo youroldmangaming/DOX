@@ -42,3 +42,11 @@ Option to add collaborative notes for others, allowing them to comment on existi
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+---
+
+**DOX - A Computer Scientist's Notebook**  
+_Y0MG 2024_
+
+---
