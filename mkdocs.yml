@@ -138,9 +138,4 @@ nav:
 theme:
   name: material
 
-plugins:
-  - mermaid2
 
-markdown_extensions:
-  - pymdownx.arithmatex
-  - pymdownx.superfences
