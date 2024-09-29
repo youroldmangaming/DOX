@@ -1,5 +1,5 @@
 <img src="image_2024-09-15_111916647.png" width="150" height="100" alt="YOMG Lab Documentation">
-# DOX - A Computer Scientists Lab NoteBook
+# DOX - A Computer Scientists NoteBook
 
 <img src="comp.jpg"  alt="YOMG Lab Documentation">
 
@@ -7,7 +7,7 @@ For full source visit [github](https://github.com/youroldmangaming/DOX/).
 
 # Notebook Overview
 
-**Welcome to DOX. A Computer Scientists Lab NoteBook.
+**Welcome to DOX. A Computer Scientists, Lab NoteBook.
 
 With DOX I will be documenting the setups of various technical labs, hardware experiments, software configurations, as well as intresting tests performed. This site will serve as a reference for future experiments as well as a learning tool for others.
 
@@ -18,12 +18,12 @@ Infrastructure Implementation,
 Database design, Security, and System Administration, 
 Service Delivery and Account Management as well as 
 Product Development and Marketing,
-mixed with ITIL, PMP, Prince2 and industry Best Practices and the scares of many many 
+mixed with ITIL, PMP, Prince2 and industry Best Practices and the scars of many many 
 Projects and Programmes delivered across the world.
 
 This endeavor will cover it all, with no simple demarcation, as these fields are all deeply intertwined as has been my career.
 
-In saying that, this journey started all thanks to Mr. Dale, way back in 1979 when I was a boy. Mr Dale brought his Apple 2 into the Parents School Day, showing how to change the color of a sprite via code. It was at this very instance in time, it was determined that I would set out to become a Computer Scientist, I had not choice. What you will find within DOX is a life time of experience along with interesting projects and experiments, mixed with best practice. Have fun and enjoy the journey along with me.
+In saying that, this journey started all thanks to Mr. Dale, way back in 1979 when I was a boy. Mr Dale brought his Apple 2 into the Parents School Day, showing how to change the color of a sprite via code. It was at this very instance in time, it was determined that I would set out to become a Computer Scientist, I had no choice. What you will find within DOX is a life time of experience along with interesting projects and experiments, mixed with best practice. Have fun and enjoy the journey along with me.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_mOaCiMCN2Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
