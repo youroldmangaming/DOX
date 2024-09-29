@@ -141,4 +141,7 @@ theme:
 plugins:
   - mermaid2
 
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.superfences
 
