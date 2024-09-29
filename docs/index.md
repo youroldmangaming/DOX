@@ -7,26 +7,27 @@ For full source visit [github](https://github.com/youroldmangaming/DOX/).
 
 # Notebook Overview
 
-**DOX - A Computer Scientist's Lab Notebook** is a digital logbook, documenting the setup of various technical labs, hardware experiments, software configurations, and any testing performed. This site will serve as a reference for future experiments and a learning tool for others.
+**Welcome to DOX. A Computer Scientists Lab NoteBook.
 
-A lifetime of software development with experience in all roles, from greenfield self-starting software houses to fully enabled small to medium-sized teams, and then onto enterprise-level standards-based production (Software Engineer to Chief Technical Officer). The scope includes:
+With DOX I will be documenting the setups of various technical labs, hardware experiments, software configurations, as well as intresting tests performed. This site will serve as a reference for future experiments as well as a learning tool for others.
 
-- Software Engineering
-- Infrastructure Implementation
-- Database, Security, and System Administration
-- Service Delivery and Account Management
-- Product Development and Marketing
-- ITIL, Best Practices
-- Project and Programme Delivery
+Here is my gift to you. A lifetime of software development and experience in all roles within IT and T, from greenfield self-starting software houses to fully enabled small to medium-sized teams, and then onto enterprise-level standards-based production. From being a Junior  Software Engineer to becoming a Chief Technical Officer across multiple companies. The scope of DOX includes:
 
-This project will cover it all, with no simple demarcation, as these fields are all deeply intertwined.
+Software Engineering,
+Infrastructure Implementation,
+Database design, Security, and System Administration, 
+Service Delivery and Account Management as well as 
+Product Development and Marketing,
+mixed with ITIL, PMP, Prince2 and industry Best Practices and the scares of many many 
+Projects and Programmes delivered across the world.
 
-Thanks to Mr. Dale, in 1979 bringing his AppleII into the Parents Day at school, it was at this very instance in time I set out to becomming a Computer Scientist.
+This endeavor will cover it all, with no simple demarcation, as these fields are all deeply intertwined as has been my career.
 
+In saying that, this journey started all thanks to Mr. Dale, way back in 1979 when I was a boy. Mr Dale brought his Apple 2 into the Parents School Day, showing how to change the color of a sprite via code. It was at this very instance in time, it was determined that I would set out to become a Computer Scientist, I had not choice. What you will fine within DOX is a life time of experience along with interesting projects and experiments, mixed with best practice. Have fun and enjoy the journey along with me.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_mOaCiMCN2Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Core Features
+## Core Documentation Features
 
 ### 1. Project and Experiment Logging
 - Document detailed step-by-step instructions on setting up labs, configurations, experiments, and troubleshooting.
