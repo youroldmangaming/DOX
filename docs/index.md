@@ -119,7 +119,7 @@ C --> D
 ---
 
 **DOX - A Computer Scientist's Notebook**  
-_Y0MG 2024_  
+_Y0MG 1990-2024_  
 [GitHub Repository](https://github.com/youroldmangaming/DOX/tree/master) | [Documentation Site](https://dox.youroldmangaming.com)
 
 ---
