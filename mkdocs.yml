@@ -136,11 +136,17 @@ nav:
 
 theme:
   name: material
-plugins:
-  - mermaid2
+#plugins:
+#  - mermaid2
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.superfences
+extra_javascript:
+  - katex.min.js
+  - mermaid.min.js
+extra_css:
+  - css/katex.min.css
+
 
 #extra_css:
 #  - https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css
