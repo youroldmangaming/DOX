@@ -124,6 +124,7 @@ C --> D
 ```
 
 # Code Block Example
+I will be producing code and scripts for various setups and examples. I will be using some snippets in code blocks as follows, but in most case will have github repositories setup with working solutions.
 
 ## JavaScript Code Block
 
@@ -133,7 +134,7 @@ function greet(name) {
 }
 
 greet("World");
-
+```
 
 "I'm very highly educated. I know words, I have the best words." DJT 2015
 
