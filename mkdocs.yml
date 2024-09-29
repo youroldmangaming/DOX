@@ -138,4 +138,7 @@ nav:
 theme:
   name: material
 
+plugins:
+  - mermaid2
+
 
