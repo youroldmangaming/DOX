@@ -144,9 +144,12 @@ plugins:
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.superfences
-  - pymdownx.superfences
   - pymdownx.snippets
   - pymdownx.tabbed
   - pymdownx.emoji
   - pymdownx.highlight
   - pymdownx.youtube
+
+
+
+  
