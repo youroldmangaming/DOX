@@ -134,13 +134,10 @@ nav:
       - Machine learning for predictive analytics: index.md
       - Automation with AI/ML models in pipelines: index.md
 
-
 theme:
   name: material
-
 plugins:
   - mermaid2
-
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.superfences
