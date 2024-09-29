@@ -142,13 +142,14 @@ plugins:
   - mermaid2
 
 markdown_extensions:
+  - pymdownx.youtube
   - pymdownx.arithmatex
   - pymdownx.superfences
   - pymdownx.snippets
   - pymdownx.tabbed
   - pymdownx.emoji
   - pymdownx.highlight
-  - pymdownx.youtube
+
 
 
 
