@@ -150,8 +150,16 @@ markdown_extensions:
 #  - pymdownx.tabbed
 #  - pymdownx.emoji
 #  - pymdownx.highlight
-
-
+  - mermaid:
+      options:
+        theme: default
+  - mkdocs-material:
+      include_nav: true
+      nav:
+        - Overview: index.md
+  - pymdownx.katex:
+      options:
+        throw_on_error: false
 
 
   
