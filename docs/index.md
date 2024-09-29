@@ -73,7 +73,9 @@ Option to add collaborative notes for others, allowing them to comment on existi
 
 ## SmartyPants
 
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
+SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities, this will be used extensively in this notebooks documentation.
+
+For example:
 
 |                |ASCII                          |HTML                         |
 |----------------|-------------------------------|-----------------------------|
@@ -84,7 +86,7 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 ## KaTeX
 
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
+LaTex is a great documentation engine. I will be using KaTex to render mathematical expressions [KaTeX](https://khan.github.io/KaTeX/):
 
 The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
 
@@ -97,7 +99,7 @@ $$
 
 ## UML diagrams
 
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+I will be using UML diagrams within the documentation via [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
 ```mermaid
 sequenceDiagram
@@ -122,6 +124,9 @@ C --> D
 ```
 
 ---
+
+"I'm very highly educated. I know words, I have the best words." DJT 2015
+
 
 **DOX - A Computer Scientist's Notebook**  
 _Y0MG 1990-2024_  
