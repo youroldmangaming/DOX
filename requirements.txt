@@ -48,7 +48,7 @@ webencodings==0.5.1
 markdown-it-smartypants==2.0.0
 
 # KaTeX plugin for math rendering
-markdown-it-katex==0.6.0
+katex==0.16.11
 
 # Mermaid diagrams support for Markdown
 markdown-it-mermaid==0.1.0
