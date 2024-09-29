@@ -23,7 +23,7 @@ Projects and Programmes delivered across the world.
 
 This endeavor will cover it all, with no simple demarcation, as these fields are all deeply intertwined as has been my career.
 
-In saying that, this journey started all thanks to Mr. Dale, way back in 1979 when I was a boy. Mr Dale brought his Apple 2 into the Parents School Day, showing how to change the color of a sprite via code. It was at this very instance in time, it was determined that I would set out to become a Computer Scientist, I had not choice. What you will fine within DOX is a life time of experience along with interesting projects and experiments, mixed with best practice. Have fun and enjoy the journey along with me.
+In saying that, this journey started all thanks to Mr. Dale, way back in 1979 when I was a boy. Mr Dale brought his Apple 2 into the Parents School Day, showing how to change the color of a sprite via code. It was at this very instance in time, it was determined that I would set out to become a Computer Scientist, I had not choice. What you will find within DOX is a life time of experience along with interesting projects and experiments, mixed with best practice. Have fun and enjoy the journey along with me.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_mOaCiMCN2Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
