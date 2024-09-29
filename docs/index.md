@@ -123,11 +123,22 @@ B --> D{Rhombus}
 C --> D
 ```
 
----
+# Code Block Example
+
+## JavaScript Code Block
+
+```javascript
+function greet(name) {
+    console.log("Hello, " + name + "!");
+}
+
+greet("World");
+
 
 "I'm very highly educated. I know words, I have the best words." DJT 2015
 
 
+---
 **DOX - A Computer Scientist's Notebook**  
 _Y0MG 1990-2024_  
 [GitHub Repository](https://github.com/youroldmangaming/DOX/tree/master) | [Documentation Site](https://dox.youroldmangaming.com)
