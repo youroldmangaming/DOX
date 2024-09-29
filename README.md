@@ -19,3 +19,22 @@ Now the template is ready we will build the first version of the site to make su
 Now cloudflare will clone your github repro, build the website and publish it.
 If succesfull click continue project
 You will get a generate domain name like `mkdocs-em9.pages.dev`
+
+
+##Local Install MacOS
+- mkdir DOX
+- cd DOX
+- python3 -m venv DOX
+- source DOX/bin/activate 
+- brew install python 
+- pip install mkdocs
+- pip install mkdocs-material 
+- mkdocs --version
+- git clone https://github.com/youroldmangaming/DOX.git
+- mkdocs serve&                                         
+
+This will result in 
+
+INFO    -  [05:34:21] Browser connected: http://127.0.0.1:8000/
+
+- code .
