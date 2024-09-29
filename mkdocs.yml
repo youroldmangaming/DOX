@@ -137,3 +137,15 @@ nav:
 
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.superfences
