@@ -148,11 +148,11 @@ extra_css:
   - katex.min.css
 
 
-#extra_css:
-#  - https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css
-#extra_javascript:
-#  - https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js
-#  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
 
 
   
