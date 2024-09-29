@@ -139,18 +139,11 @@ theme:
   name: material
 
 plugins:
-  - mermaid
+  - mermaid2
 
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.superfences
-  - mermaid:
-      options:
-        theme: default
-  - mkdocs-material:
-      include_nav: true
-      nav:
-        - Overview: index.md
   - pymdownx.katex:
       options:
         throw_on_error: false
