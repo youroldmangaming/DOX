@@ -1,29 +1,26 @@
-<img src="image_2024-09-15_111916647.png" width="150" height="100" alt="YOMG Lab Documentation">
+<img src="dox.png" width="150" height="100" alt="YOMG Lab Documentation">
 # DOX - A Computer Scientists NoteBook
-
-<img src="comp.jpg"  alt="YOMG Lab Documentation">
 
 For full source visit [github](https://github.com/youroldmangaming/DOX/).
 
-
-<audio controls>
-  <source src="ElevenLabs_2024-09-29T08_37_04_Grandpa Spuds Oxley_pvc_s67_sb97_t2.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-
 # Continuous Delivery and Continuous Deployment
 
-Continuous Delivery (CD) and Continuous Deployment are advanced stages of the software development lifecycle where automation is heavily used to ensure that code changes are seamlessly delivered to production environments. Though these terms are often used interchangeably, they have subtle differences:
+Continuous Delivery (CD) and Continuous Deployment are advanced stages of the Software Development Lifecycle(SDLC) where automation is heavily used to ensure that code changes are seamlessly delivered to production environments. Though these terms are often used interchangeably, they have subtle differences:
 
 ## Continuous Delivery: 
 The software is automatically built, tested, and made available for deployment at any time, but deployment to production still requires manual approval.
 
 ## Continuous Deployment: 
-Every change that passes all stages of the pipeline is automatically deployed to production, without manual intervention.
-
+All change that passes the stages within the development pipeline are automatically deployed into production, this occurs without manual intervention.
 
 The CD Pipeline Architecture is a structured process that involves a series of automated steps designed to move code from development through production, ensuring quality, reliability, and rapid release cycles.
+In most modern software houses this is the goal independant of the scale of the organisation.
+
+What I can say from experience is that if you start out with this as the basis when starting a software house then it is a lot easier than trying to instill these changes to people, processes and tools within a team who are already set in their ways.
+
+
+
+
 
 ### CD Pipeline Components:
 #### Source Code Management (SCM) Integration:
