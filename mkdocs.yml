@@ -38,7 +38,7 @@ nav:
       - Build automation tools (Maven, Gradle): index.md
       - Popular CI tools (Jenkins, GitLab CI, CircleCI, Travis CI, etc.): index.md
   - Continuous Delivery (CD) & Continuous Deployment:
-      - CD pipeline architecture: index.md
+      - CD pipeline architecture: continuous_delivery.md
       - Deployment strategies (Blue-Green, Canary, Rolling): index.md
       - Infrastructure as Code (IaC): index.md
       - Artifact repositories (JFrog Artifactory, Nexus, Docker Registry): index.md
