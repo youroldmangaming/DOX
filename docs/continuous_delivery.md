@@ -12,140 +12,151 @@ For full source visit [github](https://github.com/youroldmangaming/DOX/).
 </audio>
 
 
-# Notebook Overview
+# Continuous Delivery and Continuous Deployment
 
-**Welcome to DOX. A Computer Scientists, Lab NoteBook.
+Continuous Delivery (CD) and Continuous Deployment are advanced stages of the software development lifecycle where automation is heavily used to ensure that code changes are seamlessly delivered to production environments. Though these terms are often used interchangeably, they have subtle differences:
 
-With DOX I will be documenting the setups of various technical labs, hardware experiments, software configurations, as well as intresting tests performed. This site will serve as a reference for future experiments as well as a learning tool for others.
+## Continuous Delivery: 
+The software is automatically built, tested, and made available for deployment at any time, but deployment to production still requires manual approval.
 
-Here is my gift to you. A lifetime of software development and experience in all roles within IT and T, from greenfield self-starting software houses to fully enabled small to medium-sized teams, and then onto enterprise-level standards-based production. From being a Junior  Software Engineer to becoming a Chief Technical Officer across multiple companies. The scope of DOX includes:
-
-Software Engineering,
-Infrastructure Implementation,
-Database design, Security, and System Administration, 
-Service Delivery and Account Management as well as 
-Product Development and Marketing,
-mixed with ITIL, PMP, Prince2 and industry Best Practices and the scars of many many 
-Projects and Programmes delivered across the world.
-
-This endeavor will cover it all, with no simple demarcation, as these fields are all deeply intertwined as has been my career.
-
-In saying that, this journey started all thanks to Mr. Dale, way back in 1979 when I was a boy. Mr Dale brought his Apple 2 into the Parents School Day, showing how to change the color of a sprite via code. It was at this very instance in time, it was determined that I would set out to become a Computer Scientist, I had no choice. What you will find within DOX is a life time of experience along with interesting projects and experiments, mixed with best practice. Have fun and enjoy the journey along with me.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_mOaCiMCN2Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Core Documentation Features
-
-### 1. Project and Experiment Logging
-- Document detailed step-by-step instructions on setting up labs, configurations, experiments, and troubleshooting.
-
-### 2. Categorization and Tagging
-- Organize logs by categories (e.g., hardware setups, software configurations, Docker experiments) and tags (e.g., Raspberry Pi, LoRa, Docker, Ansible, IoT).
-
-### 3. Version Control for Documentation
-- Store all experiment logs in a version-controlled repository (e.g., Git), allowing for proper revision history.
-
-### 4. Searchable Knowledge Base
-- Implement search functionality to easily find past experiments and configurations.
-
-### 5. Interactive Code/Command Blocks
-- Provide code snippets and commands in the documentation with options to easily copy them.
-
-### 6. Collaborative Notes and Comments
-- Allow for collaborative notes where others can comment on existing entries or contribute new insights.
+## Continuous Deployment: 
+Every change that passes all stages of the pipeline is automatically deployed to production, without manual intervention.
 
 
-Interactive Code/Command Blocks:
+The CD Pipeline Architecture is a structured process that involves a series of automated steps designed to move code from development through production, ensuring quality, reliability, and rapid release cycles.
 
-Provide code snippets and commands in the documentation with options to copy them easily.
+### CD Pipeline Components:
+#### Source Code Management (SCM) Integration:
 
-Collaborative Notes and Comments:
-Option to add collaborative notes for others, allowing them to comment on existing entries or contribute new insights.
+Integrate with tools like GitHub, GitLab, or Bitbucket.
+Whenever changes are pushed to specific branches (e.g., main, master), this triggers the CD pipeline.
 
-## Commands
+Example: A git push triggers an automated job in Jenkins, GitLab CI, or GitHub Actions.
+Build Automation:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-* This is a test3.
-## Project layout
+Tools like Jenkins, GitLab CI, CircleCI, Travis CI, or GitHub Actions will pull the latest code from the repository and build it automatically.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Dependencies are installed, and the code is compiled into binaries or executables if needed.
+
+Example: A Docker image is created or a compiled binary is produced from the code.
+Automated Testing:
+
+Unit tests, integration tests, and even performance and security tests are executed automatically.
+Testing frameworks (e.g., JUnit, PyTest, Selenium) and tools for test automation (e.g., TestNG, Postman).
+Example: After a successful build, unit tests ensure that individual components behave as expected.
+
+####Artifact Repository:
+
+Built artifacts are stored in repositories for later use. This allows the pipeline to deploy a consistent version of the code.
+Tools: Nexus, Artifactory, Docker Hub (for Docker images).
+
+Example: Docker images are pushed to a Docker registry, or JAR files are pushed to a Maven repository.
+Environment Provisioning:
+
+Automation tools like Terraform, Ansible, Kubernetes, or CloudFormation provision the required environments (development, staging, production) dynamically.
+
+Example: A staging environment is created to deploy the built artifacts or containers for testing.
+Deployment Automation:
+
+Deployment to the target environment (e.g., staging, production) is automated using tools like Ansible, Jenkins, Kubernetes, AWS CodeDeploy, GitLab CI, or Azure Pipelines.
+
+Example: Docker containers are deployed to a Kubernetes cluster, or the code is deployed to an AWS EC2 instance.
+Automated Acceptance Tests:
+
+Post-deployment tests are performed to verify that the application works as expected in the environment.
+
+Example: Selenium tests ensure that the web interface functions correctly, while API tests ensure the backend is functional.
+Monitoring & Feedback:
+
+After deployment, real-time monitoring ensures that the application is running smoothly and gathers metrics on performance.
+Tools: Prometheus, Grafana, Datadog, New Relic, ELK Stack.
+
+Example: Application health is monitored to detect any issues after deployment, and feedback is provided to the development team.
+Rollback Strategy:
+
+In the case of failure or issues detected after deployment, automatic rollback mechanisms ensure that the previous working version of the software is reinstated.
+
+Example: Kubernetes can automatically roll back to a previous working image if the current deployment fails.
 
 
+## CD Pipeline Stages:
+
+### Source Stage:
+
+This stage monitors the source code repositories for changes.
+Example: A commit to the main branch triggers the pipeline.
+
+### Build Stage:
+
+The code is compiled, and all dependencies are fetched.
+Example: Maven, Gradle, or a Docker image build.
+
+### Test Stage:
+
+Unit tests, integration tests, and functional tests are executed.
+Example: Selenium UI tests for a web app.
+
+### Release Stage:
+
+Artifacts are pushed to a repository, and the release is prepared.
+Example: Docker images are uploaded to a Docker registry.
+
+### Deploy Stage:
+
+The built and tested application is deployed to staging, and subsequently, production.
+Example: Helm charts are used to deploy a microservices app to Kubernetes.
+
+### Monitor Stage:
+
+Application performance and health are monitored post-deployment.
+Example: Prometheus scrapes metrics, and Grafana displays the performance dashboard.
+Tools Commonly Used in CD Pipelines:
+
+### CI/CD Tools:
+
+Jenkins, GitLab CI, GitHub Actions, CircleCI, Travis CI
 
 
-## SmartyPants
+### Artifact Management:
 
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities, this will be used extensively in this notebooks documentation.
+Docker Hub, Nexus, Artifactory
 
-For example:
+### Configuration Management:
 
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+Ansible, Chef, Puppet
 
+### Container Orchestration:
 
-## KaTeX
+Kubernetes, Docker Swarm
 
-LaTex is a great documentation engine. I will be using KaTex to render mathematical expressions [KaTeX](https://khan.github.io/KaTeX/):
+### Infrastructure as Code (IaC):
 
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+Terraform, AWS CloudFormation
 
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
+### Monitoring:
 
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+Prometheus, Grafana, New Relic
 
+### Continuous Delivery vs. Continuous Deployment:
 
-## UML diagrams
+#### Continuous Delivery:
+After successful testing and quality checks, the deployment to production is manually triggered by the team.
+Ideal when organizations need more control over the final push to production.
 
-I will be using UML diagrams within the documentation via [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+#### Continuous Deployment:
+Every change that passes all tests is automatically deployed to production.
+No manual approval is required, leading to faster release cycles and immediate updates to customers.
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+### Best Practices for CD Pipelines:
+Automate everything: From testing to deployment, everything should be automated to ensure consistency and reliability.
 
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
+Ensure rollback mechanisms: In case of failure, have robust rollback strategies.
 
-And this will produce a flow chart:
+Test early and often: Shift-left testing ensures that issues are caught early in the pipeline.
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+Monitor post-deployment: Continuous monitoring and feedback loops help identify issues in real-time.
 
-# Code Block Example
-I will be producing code and scripts for various setups and examples. I will be using some snippets in code blocks as follows, but in most case will have github repositories setup with working solutions.
-
-## JavaScript Code Block
-
-```javascript
-function greet(name) {
-    console.log("Hello, " + name + "!");
-}
-
-greet("World");
-```
-
-"I'm very highly educated. I know words, I have the best words." DJT 2015
-
+This architecture streamlines the process of delivering high-quality software by automating most steps, reducing manual intervention, and ensuring quick feedback.
 
 ---
 **DOX - A Computer Scientist's Notebook**  
