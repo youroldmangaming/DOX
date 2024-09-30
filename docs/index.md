@@ -1,4 +1,4 @@
-<img src="image_2024-09-15_111916647.png" width="150" height="100" alt="YOMG Lab Documentation">
+<img src="dox.png" width="150" height="100" alt="YOMG Lab Documentation">
 # DOX - A Computer Scientists NoteBook
 
 <img src="comp.jpg"  alt="YOMG Lab Documentation">
@@ -36,22 +36,23 @@ In saying that, this journey started all thanks to Mr. Dale, way back in 1979 wh
 
 ## Core Documentation Features
 
-### 1. Project and Experiment Logging
+## 1. Project and Experiment Logging
+
 - Document detailed step-by-step instructions on setting up labs, configurations, experiments, and troubleshooting.
 
-### 2. Categorization and Tagging
+## 2. Categorization and Tagging
 - Organize logs by categories (e.g., hardware setups, software configurations, Docker experiments) and tags (e.g., Raspberry Pi, LoRa, Docker, Ansible, IoT).
 
-### 3. Version Control for Documentation
+## 3. Version Control for Documentation
 - Store all experiment logs in a version-controlled repository (e.g., Git), allowing for proper revision history.
 
-### 4. Searchable Knowledge Base
+## 4. Searchable Knowledge Base
 - Implement search functionality to easily find past experiments and configurations.
 
-### 5. Interactive Code/Command Blocks
+## 5. Interactive Code/Command Blocks
 - Provide code snippets and commands in the documentation with options to easily copy them.
 
-### 6. Collaborative Notes and Comments
+## 6. Collaborative Notes and Comments
 - Allow for collaborative notes where others can comment on existing entries or contribute new insights.
 
 
@@ -62,14 +63,15 @@ Provide code snippets and commands in the documentation with options to copy the
 Collaborative Notes and Comments:
 Option to add collaborative notes for others, allowing them to comment on existing entries or contribute new insights.
 
-## Commands
+## 7. Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 * This is a test3.
-## Project layout
+
+## 8. Project layout
 
     mkdocs.yml    # The configuration file.
     docs/
@@ -79,7 +81,7 @@ Option to add collaborative notes for others, allowing them to comment on existi
 
 
 
-## SmartyPants
+## 9. SmartyPants
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities, this will be used extensively in this notebooks documentation.
 
@@ -92,7 +94,7 @@ For example:
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
-## KaTeX
+## 10. KaTeX
 
 LaTex is a great documentation engine. I will be using KaTex to render mathematical expressions [KaTeX](https://khan.github.io/KaTeX/):
 
@@ -105,7 +107,7 @@ $$
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 
-## UML diagrams
+## 11. UML diagrams
 
 I will be using UML diagrams within the documentation via [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
@@ -131,7 +133,7 @@ B --> D{Rhombus}
 C --> D
 ```
 
-# Code Block Example
+# 12. Code Block Example
 I will be producing code and scripts for various setups and examples. I will be using some snippets in code blocks as follows, but in most case will have github repositories setup with working solutions.
 
 ## JavaScript Code Block
