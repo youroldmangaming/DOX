@@ -6,7 +6,7 @@
 <img src="../devops.png"  alt="YOMG Lab Documentation">
 
 <audio controls>
-  <source src="../feeback.mp3" type="audio/mpeg">
+  <source src="../feedback.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
