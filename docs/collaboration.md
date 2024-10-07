@@ -1,4 +1,14 @@
-<img src="image_2024-09-15_111916647.png" width="150" height="100" alt="YOMG Lab Documentation">
+<img src="../dox.png" width="150" height="100" alt="YOMG Lab Documentation">
+
+# The Power of the Feedback Loop
+
+
+<img src="../feedback.jpg"  alt="YOMG Lab Documentation">
+
+<audio controls>
+  <source src="../feedback.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 
 # The Healthy Conflict Between Project Teams Implementing Change and Operations Resisting Change
