@@ -3,8 +3,7 @@ site_url: https://dox.youroldmangaming.com
 nav:
   - Home: index.md
   - DevOps Principles & Culture:
-      - DevOps mindset & philosophy: 
-          - DevOps: mindset.md
+      - DevOps mindset & philosophy: mindset.md
       - Collaboration between development & operations: 
           - Collaboration: collaboration.md          
       - Shift-left approach: 
