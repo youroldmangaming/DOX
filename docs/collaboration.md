@@ -3,7 +3,7 @@
 # The Healthy Conflict Between Project Teams Implementing Change and Operations Resisting Change
 
 
-<img src="../feedback.jpg"  alt="YOMG Lab Documentation">
+<img src="../competition.jpg"  alt="YOMG Lab Documentation">
 
 <audio controls>
   <source src="../competition.mp3" type="audio/mpeg">
