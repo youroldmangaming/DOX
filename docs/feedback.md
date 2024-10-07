@@ -1,4 +1,14 @@
+<img src="../dox.png" width="150" height="100" alt="YOMG Lab Documentation">
 
+# DevOps Mindset & Philosophy
+
+
+<img src="../devops.png"  alt="YOMG Lab Documentation">
+
+<audio controls>
+  <source src="../feeback.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 
 Positive and negative feedback loops are indeed one of the most powerful concepts ever developed, with their influence stretching across a vast range of disciplines. From self-assessment and personal growth to complex systems like electronics, project management, and AI learning systems, feedback loops are fundamental to how we understand, improve, and control processes.
