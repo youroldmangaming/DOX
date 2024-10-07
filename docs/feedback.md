@@ -18,3 +18,10 @@ In self-assessment, feedback loops help individuals reflect on their actions, ad
 In project delivery, feedback loops allow teams to make course corrections during a project’s lifecycle. Continuous evaluation and adjustment—whether it's refining strategies or addressing challenges—lead to better outcomes. And in AI systems, feedback loops drive learning and improvement. AI models adjust based on feedback from their environment, learning from errors and refining their outputs, mimicking human learning.
 
 This universal applicability, across so many fields, showcases just how pervasive and powerful the feedback loop concept is in shaping progress and innovation. It allows us to refine everything from personal development to cutting-edge technology.
+
+---
+**DOX - A Computer Scientist's Notebook**  
+_Y0MG 1990-2024_  
+[GitHub Repository](https://github.com/youroldmangaming/DOX/tree/master) | [Documentation Site](https://dox.youroldmangaming.com)
+
+---
