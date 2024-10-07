@@ -2,6 +2,11 @@
 
 # DevOps Mindset & Philosophy
 
+<audio controls>
+  <source src="mindset.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 The **DevOps mindset and philosophy** revolve around breaking down the barriers between development and operations teams, fostering a culture of collaboration, automation, and continuous improvement. Here's how this philosophy can be understood:
 
 ## 1. Simplifying the Infrastructure
