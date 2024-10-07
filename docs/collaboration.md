@@ -1,17 +1,17 @@
 <img src="../dox.png" width="150" height="100" alt="YOMG Lab Documentation">
 
-# The Power of the Feedback Loop
+# The Healthy Conflict Between Project Teams Implementing Change and Operations Resisting Change
 
 
 <img src="../feedback.jpg"  alt="YOMG Lab Documentation">
 
 <audio controls>
-  <source src="../feedback.mp3" type="audio/mpeg">
+  <source src="../competition.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 
-# The Healthy Conflict Between Project Teams Implementing Change and Operations Resisting Change
+
 
 In organizations, there's often a healthy conflict between **project teams** (focused on implementing change) and **operations teams** (focused on maintaining stability and resisting change). This tension is both natural and beneficial when managed properly, as it balances innovation with reliability. Here’s a breakdown of how this conflict plays out and why it's valuable:
 
@@ -52,8 +52,10 @@ The healthy conflict between project teams (who drive change) and operations tea
 
 
 ---
-
 **DOX - A Computer Scientist's Notebook**  
-_Y0MG 2024_
+_Y0MG 1990-2024_  
+[GitHub Repository](https://github.com/youroldmangaming/DOX/tree/master) | [Documentation Site](https://dox.youroldmangaming.com)
+
+---
 
 
