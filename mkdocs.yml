@@ -10,9 +10,7 @@ nav:
       - Shift-left approach: 
           - Approach:
               - Doc: index.md
-      - Continuous feedback loops: 
-          - Feedback:
-              - doc: index.md
+      - Feedback: feedback.md
       - DevOps metrics & KPIs: 
           - Metrixs:
               - docs: index.md
