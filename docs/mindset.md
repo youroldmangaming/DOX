@@ -2,6 +2,9 @@
 
 # DevOps Mindset & Philosophy
 
+
+<img src="devops.png"  alt="YOMG Lab Documentation">
+
 <audio controls>
   <source src="mindset.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
