@@ -38,9 +38,9 @@ The **DevOps mindset and philosophy** revolve around breaking down the barriers 
 In summary, the DevOps mindset is about **stability, efficiency, collaboration**, and a **deep focus on ownership and continuous improvement** throughout the software development and operations lifecycle.
 
 ---
-
 **DOX - A Computer Scientist's Notebook**  
-_Y0MG 2024_
+_Y0MG 1990-2024_  
+[GitHub Repository](https://github.com/youroldmangaming/DOX/tree/master) | [Documentation Site](https://dox.youroldmangaming.com)
 
 ---
 
