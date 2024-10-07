@@ -4,6 +4,7 @@ nav:
   - Home: index.md
   - DevOps Principles & Culture:
       - Mindset: mindset.md
+      - Form: form.html
       - Collaboration between development & operations: 
           - Collaboration: collaboration.md          
       - Shift-left approach: 
