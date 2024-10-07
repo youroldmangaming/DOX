@@ -3,7 +3,7 @@
 # DevOps Mindset & Philosophy
 
 
-<img src="../devops.png"  alt="YOMG Lab Documentation">
+<img src="../feedback.png"  alt="YOMG Lab Documentation">
 
 <audio controls>
   <source src="../feeback.mp3" type="audio/mpeg">
