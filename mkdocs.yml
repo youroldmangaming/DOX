@@ -22,6 +22,8 @@ nav:
       - InnerSource and open collaboration: 
           - Collaboration:
               - dox: index.md
+  - Clustering and Parallel Computering:
+      - Building a Cluster: picluster.md 
   - Version Control Systems (VCS):
       - Git fundamentals: index.md
       - Git branching strategies (Git Flow, GitHub Flow, etc.): index.md
