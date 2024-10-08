@@ -27,38 +27,36 @@ When I first started this project, I found that detailed guides were surprisingl
 Here’s the parts list for my cluster:
 
 ### Compute Nodes:
-- **6x Raspberry Pi 5 (8GB)** — These will act as the primary compute nodes, handling most of the heavy lifting during task execution.
+- **6x Raspberry Pi 5 (8GB)** — These will act as the primary compute nodes, handling most of the heavy lifting during task execution. They are relatively cheap and small and powerful, so as you need to scale, from a home labbers perspective, keeping these parameters under control is crucial.
 
 ### Master Node:
-- **1x Raspberry Pi 4 (8GB)** — This will be used as the master or login node, handling job submission, scheduling, and management.
+- **1x Mac Mini (2013)** — This will be used as the master or login node, handling job submission, scheduling, and management. Initially I thought that this would be too out of date. But after I installed linux(Proxmox on bear metal), it performed very well.
 
 ### Additional Infrastructure:
-- **1x Mac Mini (2013)** — This will serve as an auxiliary node, possibly for additional services or as a backup node. It can also assist with tasks like file serving, monitoring, or handling external access.
+- **1x Raspberry Pi 4 (8GB)** —
+- This will serve as an auxiliary node, for additional services or as a backup node. It can also assist with tasks like file serving, monitoring, or handling external access.
+
 
 ### Networking:
-- **1x 8-port Gigabit Network Switch** — This switch will connect all devices, allowing fast communication between nodes.
+- **4x 4-port Wifi Network Switches** — These switches will connect all devices, allowing fast communication between nodes. They are meshed together over wifi and allocate static IPs. This will allow for flexibility in transporting the solution around the lab but also allow you to isolate the solution, as required, from the home network as you can saturate your daughters online game streaming business, so save yourself a headache.  
 
 ### Power Supply:
 - **Power Cables and USB Power Supply** — Powering all the Raspberry Pi devices. Depending on your setup, a multi-port USB power supply will help minimize cable clutter.
 
----
 
-## Step 1: Storage Setup
+### Software and Storage Setup
 
-In a cluster environment, **shared storage** is critical. This allows all nodes to work on the same set of files simultaneously. There are two main options for storage in this setup:
+- **In a cluster environment, **shared storage** is critical. This allows all nodes to work on the same set of files simultaneously. 
 
-### 1. USB Drive as Shared Storage:
-A simple, low-cost option is to plug a 64GB USB drive into one of the Pis (typically the master node) and set it up as a shared drive.
+In a cluster having a central store that all nodes can access is a requirement.
 
-1. Format the USB drive to a suitable filesystem (e.g., ext4).
-2. Mount the USB drive on the master node, then set it up as a Network File System (NFS) share.
+With the release of the Raspberry Pi 5, small and fast M.2 physical storage is now available. So each node will have this to run and load the OS and workloads. There will be local backup onto SD Cards, but also recovery backups into the cloud.
 
-**NFS Setup on Master Node:**
+Shares across the cluster will be two fold, using traditional NFS as well as Gluster, more about that later.
 
-1. Install NFS server on the master node:
-   ```bash
-   sudo apt-get install nfs-kernel-server
+Slurm will be used to automate and orchestrate jobs across the cluster and OpenMPI will be used to manage the inter CPU communication between the Raspberry Pi's.
 
+I will be building a Python and R demo to show case this working.
 
 ---
 **DOX - A Computer Scientist's Notebook**  
