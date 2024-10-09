@@ -7,7 +7,7 @@ For full source visit [github](https://github.com/youroldmangaming/DOX/).
 
 
 <audio controls>
-  <source src="ElevenLabs_2024-09-29T08_37_04_Grandpa Spuds Oxley_pvc_s67_sb97_t2.mp3" type="audio/mpeg">
+  <source src="pi0.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
