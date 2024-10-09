@@ -3,7 +3,7 @@
 
 <img src="../pihat.jpg"  alt="YOMG Lab Documentation">
 
-For full source visit [github](https://github.com/youroldmangaming/DOX/).
+For full source visit [github](https://github.com/youroldmangaming/M.2-Raspberry-Pi-5.git).
 
 
 ### Software and Storage Setup
