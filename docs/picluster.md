@@ -14,7 +14,7 @@ For full source visit [github](https://github.com/youroldmangaming/DOX/).
 
 # Building a Cluster using Raspberry Pi's
 
-# Building a Miniature Community-Style Cluster with Raspberry Pi 5 and Open Source HPC Software
+# Building a Miniature Home Lab Cluster with Raspberry Pi 5 and Open Source HPC Software
 
 This guide documents the process of building a miniature, open-source cluster using Raspberry Pi computers and high-performance computing (HPC)-grade software. The focus is on creating a low-cost home lab environment that is scalable and adaptable to various setups.
 
