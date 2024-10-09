@@ -24,7 +24,7 @@ nav:
               - dox: index.md
   - Clustering and Parallel Computering:
       - Clustering: picluster.md 
-      - Storage: pihatm2.md 
+      - Storage: pim2.md 
   - Version Control Systems (VCS):
       - Git fundamentals: index.md
       - Git branching strategies (Git Flow, GitHub Flow, etc.): index.md
