@@ -1,7 +1,7 @@
 <img src="../dox.png" width="150" height="100" alt="YOMG Lab Documentation">
 # DOX - A Computer Scientists NoteBook
 
-<img src="../comp.jpg"  alt="YOMG Lab Documentation">
+<img src="../cluster.jpg"  alt="YOMG Lab Documentation">
 
 For full source visit [github](https://github.com/youroldmangaming/DOX/).
 
