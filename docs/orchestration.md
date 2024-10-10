@@ -90,7 +90,7 @@ Orchestration and automation are foundational in modern clusters for managing co
 
 
 ---
-
+<smartypants>
                                                                                
                                                                                
   ┌────────────────────────────────────────────────────────────────────────┐   
@@ -108,8 +108,8 @@ Orchestration and automation are foundational in modern clusters for managing co
   │ @@@@@@@@@@@@@@@@@@@@        %@@@@@@@@@@@@@       @@@@@%         @@@@@% │   
   │                                %@@@@@@%            @%             @%   │   
   │                                                                        │   
-  └────────────────────────────────────────────────────────────────────────┘   
-                                                                               
+  └────────────────────────────────────────────────────────────────────────┘                                                                             
+</smartypants>
 
 **DOX - A Computer Scientist's Notebook**  
 _Y0MG 1990-2024_  
