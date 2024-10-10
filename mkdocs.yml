@@ -25,6 +25,7 @@ nav:
   - Clustering and Parallel Computering:
       - Clustering: picluster.md 
       - Storage: pim2.md 
+      - Orchestration: orchestration.md
   - Version Control Systems (VCS):
       - Git fundamentals: index.md
       - Git branching strategies (Git Flow, GitHub Flow, etc.): index.md
