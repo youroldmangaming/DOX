@@ -107,9 +107,9 @@ Orchestration and automation are foundational in modern clusters for managing co
   │                                %@@@@@@%            @%             @%   │   
   │                                                                        │   
   └────────────────────────────────────────────────────────────────────────┘
+                                           A Computer Scientist's Notebook
+                                                            Y0MG 1990-2024
+GitHub Repository https://github.com/youroldmangaming/DOX
+Documentation Site https://dox.youroldmangaming.com
 ```
-**DOX - A Computer Scientist's Notebook**  
-_Y0MG 1990-2024_  
-[GitHub Repository](https://github.com/youroldmangaming/DOX/tree/master) | [Documentation Site](https://dox.youroldmangaming.com)
-
 ---
