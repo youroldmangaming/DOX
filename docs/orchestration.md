@@ -90,9 +90,7 @@ Orchestration and automation are foundational in modern clusters for managing co
 
 
 ---
-<smartypants>
-                                                                               
-                                                                               
+```bash                                                                        
   ┌────────────────────────────────────────────────────────────────────────┐   
   │                                                                        │   
   │ @@@@@@@@@@@@@@@@@@@@          %@@@@@@@@%          %@@            %@@   │   
@@ -108,8 +106,8 @@ Orchestration and automation are foundational in modern clusters for managing co
   │ @@@@@@@@@@@@@@@@@@@@        %@@@@@@@@@@@@@       @@@@@%         @@@@@% │   
   │                                %@@@@@@%            @%             @%   │   
   │                                                                        │   
-  └────────────────────────────────────────────────────────────────────────┘                                                                             
-</smartypants>
+  └────────────────────────────────────────────────────────────────────────┘
+```
 
 
 
