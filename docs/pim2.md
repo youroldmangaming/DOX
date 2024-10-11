@@ -42,6 +42,44 @@ This guide outlines the two-step process required to enable NVMe booting on the 
 - SSH or console access to the Raspberry Pi.
 - Basic knowledge of working with shell scripts.
 
+
+##Storage Architecture
+
+<img src="../storage.png"  alt="YOMG Lab Documentation">
+
+
+1. Node Storage Architecture:
+   - Primary Boot: M.2 NVMe SSD
+   - Backup Boot: 64GB Micro SD card (non-live, bootable if needed)
+
+2. Distributed Storage Solutions:
+   - NFS (Network File System): Used for non-critical file distribution across the cluster
+   - GlusterFS: Implemented for solution-dependent file access, providing scalable and reliable distributed storage
+
+3. Backup Strategy:
+   - Local Backup: Data backed up to LAN-connected NAS
+   - Cloud Backup: Utilizes Mega.nz for off-site storage
+   - Schedule: Daily backups at 12:00 AM for each node
+
+4. Data Flow:
+   - Primary Operations: Conducted on M.2 NVMe SSDs
+   - File Sharing: NFS for general use, GlusterFS for specific solutions
+   - Backup Process: Node data → Local NAS → Cloud Storage (Mega.nz)
+
+5. Redundancy and Failover:
+   - Boot Redundancy: M.2 drive (primary) with Micro SD fallback
+   - Storage Redundancy: Distributed across cluster (GlusterFS) and multiple backup locations
+
+6. Performance Considerations:
+   - High-speed local storage with M.2 NVMe SSDs
+   - Distributed file systems (NFS, GlusterFS) for balanced cluster-wide access
+
+7. Scalability:
+   - GlusterFS allows for easy addition of new nodes to the storage pool
+   - NFS provides flexible shared storage expansion
+
+This design ensures high performance, data redundancy, and scalable storage solutions across the RPi-Cluster, with comprehensive backup strategies for data protection.
+
 ## Steps Overview:
 
 ### Step 1: Pre-reboot Configuration Script
