@@ -40,7 +40,7 @@ Here’s the parts list for my cluster:
 ### Networking:
 - **4x 4-port Wifi Network Switches** — These switches will connect all devices, allowing fast communication between nodes. They are meshed together over wifi and allocate static IPs. This will allow for flexibility in transporting the solution around the lab but also allow you to isolate the solution, as required, from the home network as you can saturate your daughters online game streaming business, so save yourself a headache.  
 
-<img src="../piclusternetwork.png"  alt="YOMG Lab Documentation">
+<img src="../rpiclusternetwork.png"  alt="YOMG Lab Documentation">
 
 
 ### Power Supply:
