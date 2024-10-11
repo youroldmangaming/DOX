@@ -25,6 +25,8 @@ I will be building a Python and R demo to show case this working.
 
 # Booting Raspberry Pi 5 from an M.2 NVMe Drive Using a HAT
 
+<img src="../image_2024-10-11_160650624.png"  alt="YOMG Lab Documentation">
+
 The Raspberry Pi 5 can significantly benefit from using an M.2 NVMe drive for faster read/write performance compared to traditional SD cards. By following this guide and using the provided scripts, you will be able to boot and run the Raspberry Pi OS and services from an M.2 NVMe drive connected via a compatible HAT.
 
 This guide outlines the two-step process required to enable NVMe booting on the Raspberry Pi 5:
