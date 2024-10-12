@@ -89,9 +89,8 @@ Orchestration and automation are foundational in modern clusters for managing co
 
 
 
-
----
-```bash                                                                        
+<div style="font-size: 50%;">
+  <pre><code>
   ┌────────────────────────────────────────────────────────────────────────┐   
   │                                                                        │   
   │ @@@@@@@@@@@@@@@@@@@@          %@@@@@@@@%          %@@            %@@   │   
@@ -112,5 +111,5 @@ Orchestration and automation are foundational in modern clusters for managing co
                                                             Y0MG 1990-2024
 GitHub Repository https://github.com/youroldmangaming/DOX
 Documentation Site https://dox.youroldmangaming.com
-```
----
+  </code></pre>
+</div>
