@@ -3,7 +3,7 @@
 
 <img src="../image_2024-10-13_063342911.png"  alt="YOMG Lab Documentation">
 
-For full source visit [github](https://github.com/youroldmangaming/M.2-Raspberry-Pi-5.git).
+For full source visit [github](https://github.com/youroldmangaming/DOX.git).
 
 
 # Managing a Raspberry Pi Cluster with Slurm and Open-MPI
