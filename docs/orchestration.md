@@ -3,7 +3,7 @@
 
 <img src="../image_2024-10-10_191913072.png"  alt="YOMG Lab Documentation">
 
-For full source visit [github](https://github.com/youroldmangaming/M.2-Raspberry-Pi-5.git).
+For full source visit [github](https://github.com/youroldmangaming/DOX.git).
 
 
 # Orchestration and Automation in a Cluster
