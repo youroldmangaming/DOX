@@ -78,6 +78,7 @@ Orchestration and automation often work together in clusters to provide seamless
 - **Terraform**: Infrastructure as code tool to provision cluster resources.
 - **Jenkins**: Automates the CI/CD pipeline to manage builds and deployments.
 - **Prometheus**: Monitoring tool that can trigger automated scaling or healing processes in conjunction with orchestrators.
+- [**Slurm**:](https://dox.youroldmangaming.com/slurm.md) Monitoring tool that can trigger automated scaling or healing processes in conjunction with orchestrators.
 
 ---
 
