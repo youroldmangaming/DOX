@@ -165,5 +165,5 @@ sbatch mpi_job.sh
 This setup allows you to harness the full power of your Raspberry Pi cluster for parallel computing tasks.
 
 ## Additional Considerations:
-- **Hybrid MPI and OpenMP:** You can mix MPI (distributed parallelism) and OpenMP (shared memory parallelism) to optimize performance based on your workload.
+- [**Hybrid MPI and OpenMP:**](https://github.com/youroldmangaming/Distributed-Processing/tree/main) You can mix MPI (distributed parallelism) and OpenMP (shared memory parallelism) to optimize performance based on your workload.
 - **Monitoring & Logging:** Slurm’s logging and monitoring capabilities can help track resource usage, optimize job scheduling, and identify bottlenecks.
