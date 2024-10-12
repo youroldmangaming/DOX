@@ -78,7 +78,7 @@ Orchestration and automation often work together in clusters to provide seamless
 - **Terraform**: Infrastructure as code tool to provision cluster resources.
 - **Jenkins**: Automates the CI/CD pipeline to manage builds and deployments.
 - **Prometheus**: Monitoring tool that can trigger automated scaling or healing processes in conjunction with orchestrators.
-- [**Slurm**:](https://dox.youroldmangaming.com/slurm/) Monitoring tool that can trigger automated scaling or healing processes in conjunction with orchestrators.
+- [**Slurm**:](https://dox.youroldmangaming.com/slurm/) Slurm (Simple Linux Utility for Resource Management) is an open-source, scalable job scheduling and workload management system designed for Linux clusters. It is widely used in high-performance computing (HPC) environments to manage large-scale computing resources, schedule jobs, and optimize the use of available hardware resources.
 
 ---
 
