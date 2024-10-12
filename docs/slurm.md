@@ -1,3 +1,10 @@
+<img src="../dox.png" width="150" height="100" alt="YOMG Lab Documentation">
+# DOX - A Computer Scientists NoteBook
+
+<img src="../image_2024-10-10_191913072.png"  alt="YOMG Lab Documentation">
+
+For full source visit [github](https://github.com/youroldmangaming/M.2-Raspberry-Pi-5.git).
+
 
 # Managing a Raspberry Pi Cluster with Slurm and Open-MPI
 
@@ -167,3 +174,29 @@ This setup allows you to harness the full power of your Raspberry Pi cluster for
 ## Additional Considerations:
 - [**Hybrid MPI and OpenMP:**](https://github.com/youroldmangaming/Distributed-Processing/tree/main) You can mix MPI (distributed parallelism) and OpenMP (shared memory parallelism) to optimize performance based on your workload.
 - **Monitoring & Logging:** Slurm’s logging and monitoring capabilities can help track resource usage, optimize job scheduling, and identify bottlenecks.
+
+<div style="font-size: 50%;">
+  <pre><code>
+  ┌────────────────────────────────────────────────────────────────────────┐   
+  │                                                                        │   
+  │ @@@@@@@@@@@@@@@@@@@@          %@@@@@@@@%          %@@            %@@   │   
+  │ @@@@@@@@@@@@@@@@@@@@       %@@@@@@@@@@@@@@%     %@@@@@@        *@@@@@@ │   
+  │ @@@@@@@@@@@@@@@@@@@@      @@@@@@@@@@@@@@@@@@     @@@@@@@%     @@@@@@%  │   
+  │ @@@@@          %@@@@     %@@@@@%       @@@@@@      @@@@@@@% @@@@@@%#   │   
+  │ @@@@@          %@@@@    %@@@@@          @@@@@@       @@@@@@@@@@@@#     │   
+  │ @@@@@          %@@@@    @@@@@@          #@@@@@         @@@@@@@@%       │   
+  │ @@@@@          %@@@@    @@@@@@          %@@@@@        %@@@@@@@@@       │   
+  │ @@@@@          %@@@@    *@@@@@*         @@@@@%      #@@@@@@@@@@@@@     │   
+  │ @@@@@@@@@@@@@@@@@@@@     @@@@@@@%     @@@@@@@     #@@@@@@@  @@@@@@@@   │   
+  │ @@@@@@@@@@@@@@@@@@@@      *@@@@@@@@@@@@@@@@%    *@@@@@@@      @@@@@@@% │   
+  │ @@@@@@@@@@@@@@@@@@@@        %@@@@@@@@@@@@@       @@@@@%         @@@@@% │   
+  │                                %@@@@@@%            @%             @%   │   
+  │                                                                        │   
+  └────────────────────────────────────────────────────────────────────────┘
+                                           A Computer Scientist's Notebook
+                                                            Y0MG 1990-2024
+GitHub Repository https://github.com/youroldmangaming/DOX
+Documentation Site https://dox.youroldmangaming.com
+  </code></pre>
+</div>
+
