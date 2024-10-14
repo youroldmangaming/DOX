@@ -136,10 +136,35 @@ nav:
       - Machine learning for predictive analytics: index.md
       - Automation with AI/ML models in pipelines: index.md
 
-theme:
-  name: material
+#theme:
+ # name: material
 #plugins:
 #  - mermaid2
+theme:
+  name: material
+ # logo: 0dq28DF.png
+ # favicon: favicon.png
+  features:
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+
+
+
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.superfences
