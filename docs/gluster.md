@@ -261,8 +261,27 @@ gluster peer probe rpi53
 gluster peer probe rpi54
 ```
 
+This script will setup the GlusterFS volumns and share them. To note this is not a setup similar to SAMBA or NFS where a central server is required to be up so that that files can be accessed. Gluster as setup in this instance, is fully redundant and distributed(`setup_gluster_distributed_share.sh `). This needs to be run on each node including the manager node:
+
+```c
+cd/
+mkdir -p /glusterfs /mnt/glusterfs
+
+echo "$hostname:/glusterfs /mnt/glusterfs glusterfs defaults,_netdev,backupvolfile-server= 0 0" >> /etc/fstab
 
 
+chown -R root:docker /mnt
+systemctl daemon-reload
+mount -a
+mount.glusterfs $hostname:/glusterfs /mnt
+```
+
+To be run on the manager node to build and startup the volume
+```bash
+
+gluster volume create glusterfs replica 5 rpi41:/glusterfs rpi51:/glusterfs rpi52:/glusterfs rpi53:/glusterfs rpi54:/glusterfs force
+sudo gluster volume start glusterfs
+```
 
 
 
