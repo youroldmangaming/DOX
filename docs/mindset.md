@@ -6,7 +6,13 @@
 <img src="../devops.png"  alt="YOMG Lab Documentation">
 
 # DevOps: Culture Over Tools
-[Watch the video](../MindTools.mp4)
+
+<video width="640" height="360" controls>
+  <source src="../DevTools.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 
 The **DevOps mindset and philosophy** revolve around breaking down the barriers between development and operations teams, fostering a culture of collaboration, automation, and continuous improvement. Here's how this philosophy can be understood:
 
@@ -27,6 +33,7 @@ The **DevOps mindset and philosophy** revolve around breaking down the barriers 
 
 ## 6. Ownership and Accountability
 - **Full Ownership of the Product Lifecycle**: DevOps encourages teams to take full ownership of the product from development through deployment to operations. This includes managing vendor relationships, overseeing staff involvement, and aligning stakeholders. Complete accountability leads to better project delivery and ensures everyone involved is aligned toward common goals.
+
 
 
 
