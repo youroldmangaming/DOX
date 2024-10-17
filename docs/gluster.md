@@ -249,8 +249,17 @@ done
 
 ```
 
+This script will setup the workers nodes to the manager node(`setup_peering.sh  `), this script must be run on the manager node (rpi41):
 
+```c
 
+!/bin/bash
+
+gluster peer probe rpi51
+gluster peer probe rpi52
+gluster peer probe rpi53
+gluster peer probe rpi54
+```
 
 
 
