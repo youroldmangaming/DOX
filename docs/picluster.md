@@ -46,6 +46,30 @@ Here’s the parts list for my cluster:
 ### Power Supply:
 - **Power Cables and USB Power Supply** — Powering all the Raspberry Pi devices. Depending on your setup, a multi-port USB power supply will help minimize cable clutter.
 
+Turning the cluster on and off via a single button can be conducted in one of two way, with wiring and a firmware level interaction via the onboard functionality. The second option is to write a program to detect the state on one device going into shutdown and cascading this across the custer. Having going down this second path with marginal positive outcomes the physical route has been determined to be the path of least resistence to get to the desirded outcome.
+
+# RPI-Cluster Turn Off and Turn On
+
+The cluster is to be turned on an off using a single push button.
+
+The button has two wires +ve and -ve that get terminated in parallel to each of the 8 raspberry Pi's in the cluser to GPIO 5 and 6.
+
+An update to the `sudo nano /boot/firmware/config.txt  ` add the below:
+
+```
+dtoverlay=gpio-shutdown
+```
+When the cluster is in an on state pressing and holding the button for 3 seconds will turn off all Rapberry Pis in the cluster.
+
+This will put the Raspberry Pi's into a hybernated mode.
+
+Once in this mode turning the cluster back on is again, just holding down the button.
+
+<img src="../turnoff.png"  alt="YOMG Lab Documentation">
+
+
+
+
 
 ---
 **DOX - A Computer Scientist's Notebook**  
