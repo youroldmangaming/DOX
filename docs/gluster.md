@@ -107,6 +107,61 @@ done
 
 ```
 
+### 2. Remove all old GlusterFS shares (`slurm_remove_cluster_worker.sh`):
+
+```bash
+srun --nodelist=rpi51,rpi52,rpi53,rpi54,rpi41 --exclusive -N 5 bash /clusterfs/remove_gluster/remove_gluster_worker.sh
+```
+This file will remove current GlusterFS volumes(`remove_gluster_worker.sh`):
+```c
+#!/bin/bash
+
+# Configuration variables
+GLUSTERFS_DIR="/glusterfs"
+
+echo "Starting GlusterFS cleanup on worker node"
+
+# Stop GlusterFS services
+echo "Stopping GlusterFS services"
+systemctl stop glusterd
+systemctl disable glusterd
+
+# Remove GlusterFS packages
+echo "Removing GlusterFS packages"
+apt remove --purge glusterfs-server -y
+apt remove --purge glusterfs-client -y
+apt remove --purge glusterfs-common -y
+
+apt autoremove -y
+
+# Remove GlusterFS directories
+echo "Removing GlusterFS directories"
+rm -rf $GLUSTERFS_DIR /var/lib/glusterd /var/log/glusterfs /etc/glusterfs
+
+# Remove GlusterFS mount from /etc/fstab
+echo "Removing GlusterFS mount from /etc/fstab"
+sed -i '/glusterfs/d' /etc/fstab
+
+# Unmount any remaining GlusterFS mounts
+#echo "Unmounting any remaining GlusterFS mounts"
+#sudo umount -f /mnt || true
+
+echo "GlusterFS cleanup on worker node completed successfully!"
+
+
+systemctl stop glusterd.service
+systemctl disable glusterd.service
+rm /etc/systemd/system/glusterd.service
+rm /etc/systemd/system/glusterd.service # and symlinks that might be related
+rm /usr/lib/systemd/system/glusterd.service 
+rm /usr/lib/systemd/system/glusterd.service # and symlinks that might be related
+systemctl daemon-reload
+systemctl reset-failed
+
+```
+
+
+
 <div style="font-size: 50%;">
   <pre><code>
   ┌────────────────────────────────────────────────────────────────────────┐   
