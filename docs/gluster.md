@@ -3,7 +3,7 @@
 
 <img src="../GlusterFS.svg"  alt="YOMG Lab Documentation">
 
-For full source visit [github](https://github.com/youroldmangaming/DOX.git).
+For full source visit [github](https://github.com/youroldmangaming/GlusterFS.git).
 
 
 # Managing a Raspberry Pi Distibuted File Share using Gluster
