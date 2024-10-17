@@ -8,6 +8,26 @@ For full source visit [github](https://github.com/youroldmangaming/GlusterFS.git
 
 # Managing a Raspberry Pi Distibuted File Share using Gluster
 
+A. What is GlusterFS?
+
+GlusterFS, or Gluster File System, is an open-source distributed file system designed to provide scalable and high-performance storage for diverse workloads. It is a part of the Red Hat Storage product family and is commonly used in cloud environments, virtualized environments, and other scenarios where a distributed file system is needed.
+
+Key features of GlusterFS include:
+
+Distributed Architecture: GlusterFS distributes data across multiple nodes in a cluster, allowing for easy scalability. This means that as the storage needs increase, additional nodes can be added to the cluster.
+2. Scalability: It scales horizontally by adding more storage servers to the cluster. The file system grows as the number of nodes increases.
+
+3. Flexibility: GlusterFS is flexible in terms of deployment. It can be used on commodity hardware and supports a variety of storage types, including traditional hard drives, SSDs, and more.
+
+4. Redundancy and Fault Tolerance: It provides options for data replication, ensuring that data is duplicated across multiple nodes for fault tolerance. This helps in maintaining data integrity and availability even if some nodes fail.
+
+5. High Performance: GlusterFS is designed to offer good performance for a wide range of applications. It uses a stackable translator framework to allow various features like caching, striping, and more.
+
+6. Global Namespace: It presents a unified global namespace, making it appear as a single, coherent file system to users and applications, regardless of the underlying physical storage locations.
+
+7. Ease of Management: GlusterFS comes with management tools that simplify the administration of the distributed file system.
+
+One notable aspect is that GlusterFS is a user-space file system, meaning it operates outside the Linux kernel. It uses a user-space daemon, typically called “glusterd,” to manage the storage nodes and provide a unified view of the distributed file system.
 
 ### 1. Check Cluster Availability in Preparation for Installation
 Checks the availability of slurm defined nodes. This is needed as a first step as orchestration of tasks become very tiresome as the cluster increases in nodes.
