@@ -5,10 +5,8 @@
 
 <img src="../devops.png"  alt="YOMG Lab Documentation">
 
-<audio controls>
-  <source src="../mindset.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+# DevOps: Culture Over Tools
+[Watch the video](../MindTools.mp4)
 
 The **DevOps mindset and philosophy** revolve around breaking down the barriers between development and operations teams, fostering a culture of collaboration, automation, and continuous improvement. Here's how this philosophy can be understood:
 
