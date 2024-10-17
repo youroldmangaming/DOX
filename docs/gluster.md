@@ -9,8 +9,10 @@ For full source visit [github](https://github.com/youroldmangaming/DOX.git).
 # Managing a Raspberry Pi Distibuted File Share using Gluster
 
 
-### 1. Check Cluster Availability in Preparation for  Installation
-Checks the availability of nodes via slurm for administration(`is_node_alive.sh`):
+### 1. Check Cluster Availability in Preparation for Installation
+Checks the availability of slurm defined nodes. This is needed as a first step as orchestration of tasks become very tiresome as the cluster increases in nodes.
+If a node is not available the script will attempt to get it into a state ready to work.
+(`is_node_alive.sh`):
 ```c
 #!/bin/bash
 
@@ -108,6 +110,8 @@ done
 ```
 
 ### 2. Remove all old GlusterFS shares (`slurm_remove_cluster_worker.sh`):
+When you are in a lab, you are by definition learning, installing, reinstalling, makign and breaking. It is a good habit to get into, to create tools that allow you to reset configurations back to a reinstall state.
+
 
 ```bash
 srun --nodelist=rpi51,rpi52,rpi53,rpi54,rpi41 --exclusive -N 5 bash /clusterfs/remove_gluster/remove_gluster_worker.sh
