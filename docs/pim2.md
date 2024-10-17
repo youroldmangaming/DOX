@@ -54,7 +54,7 @@ This guide outlines the two-step process required to enable NVMe booting on the 
 
 2. Distributed Storage Solutions:
    - NFS (Network File System): Used for non-critical file distribution across the cluster
-   - GlusterFS: Implemented for solution-dependent file access, providing scalable and reliable distributed storage
+   - [GlusterFS](gluster.md): Implemented for solution-dependent file access, providing scalable and reliable distributed storage
 
 3. Backup Strategy:
    - Local Backup: Data backed up to LAN-connected NAS
