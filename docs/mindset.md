@@ -31,7 +31,7 @@ The **DevOps mindset and philosophy** revolve around breaking down the barriers 
 - **Full Ownership of the Product Lifecycle**: DevOps encourages teams to take full ownership of the product from development through deployment to operations. This includes managing vendor relationships, overseeing staff involvement, and aligning stakeholders. Complete accountability leads to better project delivery and ensures everyone involved is aligned toward common goals.
 
 <video width="640" height="360" controls>
-  <source src="../DevOps_%20Culture%20Over%20Tools.mp4" type="video/mp4">
+  <source src="../MindTools.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
