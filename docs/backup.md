@@ -6,6 +6,17 @@
 
 For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail.git).
 
+<img src="../du0.png" alt="YOMG Lab Documentation">
+<img src="../du1.png" alt="YOMG Lab Documentation">
+<img src="../du2.png" alt="YOMG Lab Documentation">
+<img src="../du4.png" alt="YOMG Lab Documentation">
+<img src="../du5.png" alt="YOMG Lab Documentation">
+<img src="../du6.png" alt="YOMG Lab Documentation">
+<img src="../du7.png" alt="YOMG Lab Documentation">
+<img src="../du8.png" alt="YOMG Lab Documentation">
+<img src="../du9.png" alt="YOMG Lab Documentation">
+
+
 ### Importance of Monitoring in DevOps
 
 In DevOps, **monitoring** plays a critical role as it provides visibility into the health, performance, and availability of applications and infrastructure. It allows teams to track key performance indicators (KPIs), identify issues early, and ensure that systems are meeting the desired service level agreements (SLAs). Here’s why monitoring is vital in a DevOps environment:
