@@ -34,6 +34,9 @@ In a **clustered environment**, monitoring becomes even more important due to th
 ### Monitoring Tools: Grafana, Prometheus, and Telegraf
 For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail.git).
 
+<img src="../grafana_dashboard-cluster.png"  alt="YOMG Lab Documentation">
+
+
 
 - **Grafana**: Grafana is an open-source analytics and interactive visualization tool. It is often used in conjunction with Prometheus for monitoring time-series data. It provides a flexible dashboard and alerting system that helps DevOps teams visualize metrics across clusters and applications. Grafana is popular due to its ability to integrate with various data sources and create dynamic, customizable dashboards.
 
