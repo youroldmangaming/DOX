@@ -2,7 +2,7 @@
 # DOX - A Computer Scientists NoteBook
 
 ## Monitoring tools (Prometheus, Grafana, Datadog, New Relic)
-<img src="docs/image_2024-10-19_071815187.png" alt="YOMG Lab Documentation">
+<img src="../image_2024-10-19_071815187.png" alt="YOMG Lab Documentation">
 
 For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail.git).
 
