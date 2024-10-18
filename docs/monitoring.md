@@ -1,3 +1,8 @@
+<img src="dox.png" width="150" height="100" alt="YOMG Lab Documentation">
+# DOX - A Computer Scientists NoteBook
+
+For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail.git).
+
 ### Importance of Monitoring in DevOps
 
 In DevOps, **monitoring** plays a critical role as it provides visibility into the health, performance, and availability of applications and infrastructure. It allows teams to track key performance indicators (KPIs), identify issues early, and ensure that systems are meeting the desired service level agreements (SLAs). Here’s why monitoring is vital in a DevOps environment:
@@ -27,6 +32,8 @@ In a **clustered environment**, monitoring becomes even more important due to th
 - **Performance Tuning**: Monitoring assists in understanding how workloads are distributed, enabling performance tuning to ensure optimal usage of the cluster.
 
 ### Monitoring Tools: Grafana, Prometheus, and Telegraf
+For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail.git).
+
 
 - **Grafana**: Grafana is an open-source analytics and interactive visualization tool. It is often used in conjunction with Prometheus for monitoring time-series data. It provides a flexible dashboard and alerting system that helps DevOps teams visualize metrics across clusters and applications. Grafana is popular due to its ability to integrate with various data sources and create dynamic, customizable dashboards.
 
