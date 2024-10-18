@@ -115,7 +115,7 @@ nav:
       - Automation in SRE: index.md
       - Capacity planning and reliability: index.md
   - Business Continuity & Disaster Recovery (BCDR):
-      - Backup and restore automation: index.md
+      - Backup and restore automation: backup.md
       - Disaster recovery as code: index.md
       - High availability and failover strategies: index.md
       - Data replication and disaster recovery in cloud environments: index.md
