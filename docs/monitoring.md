@@ -1,6 +1,9 @@
 <img src="../dox.png" width="150" height="100" alt="YOMG Lab Documentation">
 # DOX - A Computer Scientists NoteBook
 
+
+<img src="../image_2024-10-19_071815187.png alt="YOMG Lab Documentation">
+
 For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail.git).
 
 ### Importance of Monitoring in DevOps
