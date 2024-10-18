@@ -10,7 +10,7 @@ For full source visit [github](https://github.com/youroldmangaming/Grafana-Teleg
 
 In DevOps, **monitoring** plays a critical role as it provides visibility into the health, performance, and availability of applications and infrastructure. It allows teams to track key performance indicators (KPIs), identify issues early, and ensure that systems are meeting the desired service level agreements (SLAs). Here’s why monitoring is vital in a DevOps environment:
 
-
+```c
 version: "2.1"
 services:
   duplicati:
@@ -28,7 +28,7 @@ services:
     ports:
       - 8200:8200
     restart: unless-stopped
-
+```
 
 
 
