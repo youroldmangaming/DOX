@@ -71,7 +71,7 @@ nav:
       - Cloud infrastructure management (EC2, S3, IAM): index.md
       - Multi-cloud and hybrid cloud strategies: index.md
   - Monitoring & Observability:
-      - Monitoring tools (Prometheus, Grafana, Datadog, New Relic): index.md
+      - Monitoring tools (Prometheus, Grafana, Datadog, New Relic): monitoring.md
       - Logging and log management (ELK Stack, Fluentd, Loki): index.md
       - Distributed tracing (Jaeger, Zipkin): index.md
       - Alerting and incident management (PagerDuty, OpsGenie): index.md
