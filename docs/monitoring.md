@@ -52,3 +52,29 @@ For full source visit [github](https://github.com/youroldmangaming/Grafana-Teleg
 ### Conclusion
 
 Monitoring is essential for ensuring the reliability, performance, and scalability of DevOps environments. In clusters, it provides a way to maintain visibility across multiple nodes, ensuring that they work together seamlessly. Grafana, Prometheus, and Telegraf are key tools in this ecosystem, providing powerful metrics collection, alerting, and visualization capabilities to help manage and optimize complex, distributed systems.
+
+
+<div style="font-size: 50%;">
+  <pre><code>
+  ┌────────────────────────────────────────────────────────────────────────┐   
+  │                                                                        │   
+  │ @@@@@@@@@@@@@@@@@@@@          %@@@@@@@@%          %@@            %@@   │   
+  │ @@@@@@@@@@@@@@@@@@@@       %@@@@@@@@@@@@@@%     %@@@@@@        *@@@@@@ │   
+  │ @@@@@@@@@@@@@@@@@@@@      @@@@@@@@@@@@@@@@@@     @@@@@@@%     @@@@@@%  │   
+  │ @@@@@          %@@@@     %@@@@@%       @@@@@@      @@@@@@@% @@@@@@%#   │   
+  │ @@@@@          %@@@@    %@@@@@          @@@@@@       @@@@@@@@@@@@#     │   
+  │ @@@@@          %@@@@    @@@@@@          #@@@@@         @@@@@@@@%       │   
+  │ @@@@@          %@@@@    @@@@@@          %@@@@@        %@@@@@@@@@       │   
+  │ @@@@@          %@@@@    *@@@@@*         @@@@@%      #@@@@@@@@@@@@@     │   
+  │ @@@@@@@@@@@@@@@@@@@@     @@@@@@@%     @@@@@@@     #@@@@@@@  @@@@@@@@   │   
+  │ @@@@@@@@@@@@@@@@@@@@      *@@@@@@@@@@@@@@@@%    *@@@@@@@      @@@@@@@% │   
+  │ @@@@@@@@@@@@@@@@@@@@        %@@@@@@@@@@@@@       @@@@@%         @@@@@% │   
+  │                                %@@@@@@%            @%             @%   │   
+  │                                                                        │   
+  └────────────────────────────────────────────────────────────────────────┘
+                                           A Computer Scientist's Notebook
+                                                            Y0MG 1990-2024
+GitHub Repository https://github.com/youroldmangaming/DOX
+Documentation Site https://dox.youroldmangaming.com
+  </code></pre>
+</div>
