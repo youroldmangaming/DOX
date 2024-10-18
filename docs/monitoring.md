@@ -2,7 +2,7 @@
 # DOX - A Computer Scientists NoteBook
 
 
-<img src="../image_2024-10-19_071815187.png alt="YOMG Lab Documentation">
+<img src="../image_2024-10-19_071815187.png" alt="YOMG Lab Documentation">
 
 For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail.git).
 
