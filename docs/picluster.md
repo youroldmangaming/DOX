@@ -75,15 +75,15 @@ Setup GPS for Stratun 2 Time Accuracy  [github](https://github.com/youroldmangam
 
 2. **Log Coordination**: In a cluster, each node generates logs that are used for monitoring, debugging, and auditing. If the timestamps in these logs are not synchronized, it becomes challenging to correlate events across different nodes. This can complicate troubleshooting and performance monitoring  .
 
-3. **Coordination of Distributed Processes**: Many distributed algorithms, such as leader election and consensus protocols, rely on synchronized clocks. For instance, in protocols like Paxos and Raft, having a common notion of time helps nodes make consistent decisions  .
+3. **Coordination of Distributed Processes**: Many distributed algorithms, such as leader election and consensus protocols, rely on synchronised clocks. For instance, in protocols like Paxos and Raft, having a common notion of time helps nodes make consistent decisions  .
 
-4. **Network Protocols**: Many network protocols, including those for authentication and secure communications (like Kerberos), depend on synchronized time to prevent replay attacks and ensure valid session states. A significant time difference can lead to failed authentications and security vulnerabilities .
+4. **Network Protocols**: Many network protocols, including those for authentication and secure communications (like Kerberos), depend on synchronised time to prevent replay attacks and ensure valid session states. A significant time difference can lead to failed authentications and security vulnerabilities .
 
-5. **Performance Optimization**: Some applications, particularly in cloud computing and microservices, rely on precise timing for tasks like load balancing and resource allocation. Synchronized clocks enable efficient scaling and resource management across a cluster  .
+5. **Performance Optimisation**: Some applications, particularly in cloud computing and microservices, rely on precise timing for tasks like load balancing and resource allocation. Synchronized clocks enable efficient scaling and resource management across a cluster  .
 
 6. **Compliance and Auditing**: In many industries, regulatory compliance requires accurate timekeeping for data transactions and security logs. Failure to synchronize time can result in non-compliance and potential legal issues  .
 
-In summary, time synchronization is a foundational requirement for the reliable operation of distributed systems, impacting data integrity, system performance, security, and compliance.
+In summary, time synchronisation is a foundational requirement for the reliable operation of distributed systems, impacting data integrity, system performance, security, and compliance.
 
 ### Sources
 - [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Paradigms-2nd/dp/0132392279)
