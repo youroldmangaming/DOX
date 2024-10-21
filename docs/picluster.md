@@ -66,7 +66,7 @@ This will put the Raspberry Pi's into a hybernated mode.
 Once in this mode turning the cluster back on is again, just holding down the button.
 
 
-###Synchronizing time across a cluster is crucial for several reasons:
+### Synchronizing time across a cluster is crucial for several reasons:
 
 1. **Data Consistency**: In distributed systems, many operations depend on timestamps to ensure consistency. For example, databases often use timestamps to order transactions and maintain the integrity of the data. If different nodes have mismatched times, it can lead to conflicts and data corruption  .
 
