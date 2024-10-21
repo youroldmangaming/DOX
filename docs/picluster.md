@@ -68,7 +68,7 @@ Once in this mode turning the cluster back on is again, just holding down the bu
 
 # Synchronizing time across a cluster is crucial for several reasons:
 
-Setup GPS for Stratun 2 Time Accuracy  [github](https://github.com/youroldmangaming/ClusterTimeAdjustment.git).
+Setup GPS for Stratum 2 Time Accuracy  [github](https://github.com/youroldmangaming/ClusterTimeAdjustment.git).
 
 
 1. **Data Consistency**: In distributed systems, many operations depend on timestamps to ensure consistency. For example, databases often use timestamps to order transactions and maintain the integrity of the data. If different nodes have mismatched times, it can lead to conflicts and data corruption  .
