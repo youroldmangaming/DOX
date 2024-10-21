@@ -65,6 +65,10 @@ This will put the Raspberry Pi's into a hybernated mode.
 
 Once in this mode turning the cluster back on is again, just holding down the button.
 
+<img src="../turnoff.png"  alt="YOMG Lab Documentation">
+
+
+
 
 # Synchronizing time across a cluster is crucial for several reasons:
 
@@ -92,7 +96,7 @@ In summary, time synchronisation is a foundational requirement for the reliable 
 
 
 
-<img src="../turnoff.png"  alt="YOMG Lab Documentation">
+
 
 
 
