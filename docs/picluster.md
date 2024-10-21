@@ -75,6 +75,10 @@ Once in this mode turning the cluster back on is again, just holding down the bu
 Setup GPS for Stratum 2 Time Accuracy  [github](https://github.com/youroldmangaming/ClusterTimeAdjustment.git).
 
 
+![image](https://github.com/user-attachments/assets/6426e07f-a334-44bd-b899-807246945dd6)
+
+
+
 1. **Data Consistency**: In distributed systems, many operations depend on timestamps to ensure consistency. For example, databases often use timestamps to order transactions and maintain the integrity of the data. If different nodes have mismatched times, it can lead to conflicts and data corruption  .
 
 2. **Log Coordination**: In a cluster, each node generates logs that are used for monitoring, debugging, and auditing. If the timestamps in these logs are not synchronized, it becomes challenging to correlate events across different nodes. This can complicate troubleshooting and performance monitoring  .
