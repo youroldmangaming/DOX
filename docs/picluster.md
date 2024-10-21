@@ -70,7 +70,7 @@ Once in this mode turning the cluster back on is again, just holding down the bu
 
 
 
-# Synchronizing time across a cluster is crucial for several reasons:
+# Synchronising time across a cluster is crucial for several reasons:
 
 Setup GPS for Stratum 2 Time Accuracy  [github](https://github.com/youroldmangaming/ClusterTimeAdjustment.git).
 
@@ -97,6 +97,48 @@ In summary, time synchronisation is a foundational requirement for the reliable 
 - [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Paradigms-2nd/dp/0132392279)
 - [Time Synchronization in Distributed Systems](https://www.cs.cornell.edu/home/benja/6110/notes/time_sync.html)
 - [The Importance of Time Synchronization in Networking](https://www.networkworld.com/article/3246615/the-importance-of-time-synchronization-in-networking.html)
+
+
+
+# High Availibility:
+
+**High Availability (HA)** refers to a system's ability to operate continuously without failure for a long period. This is crucial for critical systems, where downtime can result in significant business, operational, or financial losses. High availability is typically achieved by reducing or eliminating single points of failure (SPOF) and implementing failover mechanisms that allow seamless continuation of service even if a component fails.
+
+In a cluster, **High Availability** ensures that if one node or service goes down, another can take over with minimal or no downtime. Clusters are used to distribute workloads and provide redundancy, increasing both performance and fault tolerance.
+
+### How **Keepalived** Supports High Availability in a Cluster: [github](https://github.com/youroldmangaming/Cluster-HA/blob/main/keepalived.md)
+
+1. **VRRP (Virtual Router Redundancy Protocol)**:
+   Keepalived primarily uses VRRP to create a **virtual IP address** that can be shared between multiple nodes in a cluster. The node configured as the **master** node holds the virtual IP and processes requests. If the master node fails, the **backup** node, with a lower priority, detects the failure and assumes control of the virtual IP, ensuring continuous service availability.
+   
+   The use of VRRP for HA means that clients or external systems don’t need to be aware of the failover; they interact with the same virtual IP, regardless of which node is handling the requests.
+
+2. **Failover Mechanism**:
+   Keepalived continuously monitors the state of the master node. If the master node fails due to hardware or software issues (e.g., network failure, crash), the backup node quickly takes over the virtual IP address, minimizing downtime and ensuring the application or service is still available.
+
+3. **Load Balancing**:
+   While Keepalived’s primary function is to maintain high availability through VRRP, it can also balance traffic loads across multiple servers or services. This feature ensures that requests are distributed evenly among nodes, which can help prevent overloading a single node and ensure higher availability of resources.
+
+4. **Health Checking**:
+   Keepalived can perform health checks on critical services, such as web servers, databases, or network connections. If it detects that a service on the master node is not functioning correctly, it can initiate a failover to the backup node. This ensures that only healthy nodes serve requests, improving overall reliability.
+
+5. **Failback**:
+   Keepalived supports automatic **failback**, meaning that when the master node recovers, it can automatically reclaim the virtual IP from the backup node and resume its role as the primary service provider. This helps maintain the original hierarchy and ensures optimal performance.
+
+### Example Scenario:
+
+Imagine a web application running on a cluster of two nodes. Without HA, if the server hosting the application crashes, users experience downtime until the server is fixed. However, with Keepalived:
+
+- Node 1 is configured as the master, and Node 2 as the backup.
+- The application is accessible via a shared virtual IP (e.g., `192.168.188.2`).
+- If Node 1 fails, Keepalived detects this and assigns the virtual IP to Node 2.
+- Users continue to access the application without noticing the switch.
+
+This setup ensures continuous service even in the event of a node failure.
+
+In summary, **Keepalived** plays a crucial role in achieving high availability in clusters by offering redundancy, failover mechanisms, and load balancing, ensuring minimal disruption and continuous operation in case of failures.
+
+
 
 
 
