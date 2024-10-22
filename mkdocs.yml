@@ -100,7 +100,7 @@ nav:
       - Automated mobile testing frameworks (Appium, XCTest): index.md
       - Publishing to app stores (Google Play, App Store): index.md
   - Networking in DevOps:
-      - Load balancing (NGINX, HAProxy, AWS ELB): kepalived.md
+      - Load balancing (NGINX, HAProxy, AWS ELB): keepalived.md
       - Networking in Kubernetes (Service Mesh, Ingress Controllers): index.md
       - DNS and domain management (Route 53, Cloudflare): index.md
       - VPNs and network security (Zero Trust Networking): index.md
