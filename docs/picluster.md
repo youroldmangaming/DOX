@@ -156,10 +156,9 @@ The design incorporates several excellent high-availability features:
 - NGINX servers providing distributed web services
 
 
-
-
 ![image](https://github.com/user-attachments/assets/58b5d4b4-0049-4ff2-8a9f-01716ca00a32)
 
+For full source visit [github](https://github.com/youroldmangaming/HA-WebServer).
 
 Ah, excellent choices for both storage and monitoring! Let me break down how these components enhance your architecture.
 
@@ -181,6 +180,7 @@ Monitoring Capabilities:
 
 ![image](https://github.com/user-attachments/assets/31119b7a-09b7-41fb-b442-ffdeb13a47fe)
 
+For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail).
 
 A few suggestions that might enhance the setup further:
 1. Consider adding Alertmanager to your Prometheus stack for automated notifications
