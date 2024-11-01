@@ -157,55 +157,8 @@ The design incorporates several excellent high-availability features:
 
 
 
-```mermaid
-graph TB
-    subgraph External["External Network"]
-        DHCP["DHCP Service"]
-    end
 
-    subgraph Network_Core["Network Core"]
-        Hub1["Hub 1"]
-        Hub2["Hub 2"]
-        VIP["Keepalived VIP\n192.168.188.2"]
-    end
-
-    subgraph WiFi_Layer["WiFi Layer"]
-        FW1["WiFi Switch 1\n+ Firewall"]
-        FW2["WiFi Switch 2\n+ Firewall"]
-    end
-
-    subgraph Docker_Masters["Docker Swarm Masters"]
-        Master1["Mini Mac 1\nSwarm Master"]
-        Master2["Mini Mac 2\nSwarm Master"]
-    end
-
-    subgraph Worker_Nodes["Worker Nodes"]
-        Worker1["Pi 1 + NGINX"]
-        Worker2["Pi 2 + NGINX"]
-        Worker3["Pi 3 + NGINX"]
-        Worker4["Pi 4 + NGINX"]
-        Worker5["Pi 5 + NGINX"]
-        Worker6["Pi 6 + NGINX"]
-        Worker7["Pi 7 + NGINX"]
-        Worker8["Pi 8 + NGINX"]
-    end
-
-    DHCP --> Hub1 & Hub2
-    Hub1 & Hub2 --> FW1 & FW2
-    FW1 & FW2 --> VIP
-    VIP --> Master1 & Master2
-    
-    Master1 & Master2 --> Worker1 & Worker2 & Worker3 & Worker4 & Worker5 & Worker6 & Worker7 & Worker8
-
-    classDef master fill:#f9f,stroke:#333,stroke-width:2px
-    classDef worker fill:#9f9,stroke:#333,stroke-width:1px
-    classDef network fill:#fff,stroke:#333,stroke-width:1px
-    
-    class Master1,Master2 master
-    class Worker1,Worker2,Worker3,Worker4,Worker5,Worker6,Worker7,Worker8 worker
-    class Hub1,Hub2,FW1,FW2,VIP network
-
-```
+![image](https://github.com/user-attachments/assets/58b5d4b4-0049-4ff2-8a9f-01716ca00a32)
 
 
 Ah, excellent choices for both storage and monitoring! Let me break down how these components enhance your architecture.
