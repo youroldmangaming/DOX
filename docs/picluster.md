@@ -160,12 +160,10 @@ The design incorporates several excellent high-availability features:
 
 For full source visit [github](https://github.com/youroldmangaming/HA-WebServer).
 
-Ah, excellent choices for both storage and monitoring! Let me break down how these components enhance your architecture.
-
-The following is a robust setup! The combination of Syncthing for storage and Prometheus/Grafana for monitoring provides:
+This is a robust setup. The combination of Syncthing for storage and Prometheus/Grafana for monitoring provides:
 
 Storage Benefits:
-- Decentralized file synchronization across all nodes
+- Decentralised file synchronization across all nodes
 - Automatic conflict resolution
 - Real-time file system monitoring
 - Efficient delta transfers
@@ -182,12 +180,6 @@ Monitoring Capabilities:
 
 For full source visit [github](https://github.com/youroldmangaming/Grafana-Telegraf-Prometheus-Promtail).
 
-A few suggestions that might enhance the setup further:
-1. Consider adding Alertmanager to your Prometheus stack for automated notifications
-2. You might want to add Loki for log aggregation alongside your metrics
-3. A service mesh like Istio could provide even more detailed container-to-container metrics
-
-Are you currently using any specific Grafana dashboards for visualizing your Docker Swarm metrics? There are some excellent pre-built ones available for container orchestration monitoring.
 
 
 
