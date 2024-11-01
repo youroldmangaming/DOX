@@ -208,7 +208,111 @@ graph TB
 ```
 
 
+Ah, excellent choices for both storage and monitoring! Let me break down how these components enhance your architecture.
 
+
+
+```mermaid
+graph TB
+    subgraph Storage["Syncthing Layer"]
+        direction LR
+        SharedStorage["/rpifs Shared Folder"]
+        SyncM1["Manager 1\nSyncthing"]
+        SyncM2["Manager 2\nSyncthing"]
+        SyncW1["Worker 1-4\nSyncthing"]
+        SyncW2["Worker 5-8\nSyncthing"]
+        
+        SharedStorage --- SyncM1 & SyncM2 & SyncW1 & SyncW2
+    end
+
+    subgraph Monitoring["Monitoring Stack"]
+        direction LR
+        Prometheus["Prometheus\nMetrics Collection"]
+        Grafana["Grafana\nVisualization"]
+        
+        subgraph NodeExporters["Node Exporters"]
+            NEManager1["Manager 1\nNode Exporter"]
+            NEManager2["Manager 2\nNode Exporter"]
+            NEWorker1["Workers 1-4\nNode Exporters"]
+            NEWorker2["Workers 5-8\nNode Exporters"]
+        end
+        
+        NEManager1 & NEManager2 & NEWorker1 & NEWorker2 --> Prometheus
+        Prometheus --> Grafana
+    end
+
+    classDef storage fill:#f9f,stroke:#333,stroke-width:2px
+    classDef monitoring fill:#9ff,stroke:#333,stroke-width:2px
+    classDef exporter fill:#ff9,stroke:#333,stroke-width:1px
+    
+    class SharedStorage,SyncM1,SyncM2,SyncW1,SyncW2 storage
+    class Prometheus,Grafana monitoring
+    class NEManager1,NEManager2,NEWorker1,NEWorker2 exporter
+
+```
+
+The following is a robust setup! The combination of Syncthing for storage and Prometheus/Grafana for monitoring provides:
+
+Storage Benefits:
+- Decentralized file synchronization across all nodes
+- Automatic conflict resolution
+- Real-time file system monitoring
+- Efficient delta transfers
+- Fault tolerance through multiple copies
+
+Monitoring Capabilities:
+- Real-time hardware metrics (CPU, memory, disk, network)
+- Container-level metrics from Docker Swarm
+- Node health monitoring
+- Custom alerting possibilities
+- Historical performance data
+
+```mermaid
+graph TB
+    subgraph Storage["Syncthing Layer"]
+        direction LR
+        SharedStorage["/rpifs Shared Folder"]
+        SyncM1["Manager 1\nSyncthing"]
+        SyncM2["Manager 2\nSyncthing"]
+        SyncW1["Worker 1-4\nSyncthing"]
+        SyncW2["Worker 5-8\nSyncthing"]
+        
+        SharedStorage --- SyncM1 & SyncM2 & SyncW1 & SyncW2
+    end
+
+    subgraph Monitoring["Monitoring Stack"]
+        direction LR
+        Prometheus["Prometheus\nMetrics Collection"]
+        Grafana["Grafana\nVisualization"]
+        
+        subgraph NodeExporters["Node Exporters"]
+            NEManager1["Manager 1\nNode Exporter"]
+            NEManager2["Manager 2\nNode Exporter"]
+            NEWorker1["Workers 1-4\nNode Exporters"]
+            NEWorker2["Workers 5-8\nNode Exporters"]
+        end
+        
+        NEManager1 & NEManager2 & NEWorker1 & NEWorker2 --> Prometheus
+        Prometheus --> Grafana
+    end
+
+    classDef storage fill:#f9f,stroke:#333,stroke-width:2px
+    classDef monitoring fill:#9ff,stroke:#333,stroke-width:2px
+    classDef exporter fill:#ff9,stroke:#333,stroke-width:1px
+    
+    class SharedStorage,SyncM1,SyncM2,SyncW1,SyncW2 storage
+    class Prometheus,Grafana monitoring
+    class NEManager1,NEManager2,NEWorker1,NEWorker2 exporter
+
+```
+
+
+A few suggestions that might enhance the setup further:
+1. Consider adding Alertmanager to your Prometheus stack for automated notifications
+2. You might want to add Loki for log aggregation alongside your metrics
+3. A service mesh like Istio could provide even more detailed container-to-container metrics
+
+Are you currently using any specific Grafana dashboards for visualizing your Docker Swarm metrics? There are some excellent pre-built ones available for container orchestration monitoring.
 
 
 
