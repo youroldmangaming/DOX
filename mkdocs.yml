@@ -1,8 +1,9 @@
 site_name: DevOps and Lab DOX
 site_url: https://dox.youroldmangaming.com
 nav:
-  - Home: index.md
-  - DevOps Principles & Culture:
+  -Leonardo: leo.md
+  - Principles: index.md
+  - DevOps:
       - Mindset: mindset.md
       - Form: form.html
       - Collaboration: collaboration.md          
